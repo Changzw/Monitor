@@ -1,16 +1,17 @@
 //
-//  BuildingFormContentViewController.swift
+//  CoreGraphicContentViewController.swift
 //  Monitor
 //
-//  Created by Fri on 2022/3/29.
+//  Created by Fri on 2022/3/30.
 //
 
 import UIKit
 
-final class BuildingFormContentViewController: UITableViewController {
-  private let items = BuildFormBranch.allContents
-  private weak var flow: BuildFormFlow?
-  init(flow: BuildFormFlow) {
+final class CoreGraphicContentViewController: UITableViewController {
+  private let items = CoreGraphicBranch.allContents
+  private weak var flow: CoreGraphicFlow?
+  
+  init(flow: CoreGraphicFlow) {
     self.flow = flow
     super.init(nibName: nil, bundle: nil)
   }
@@ -21,7 +22,7 @@ final class BuildingFormContentViewController: UITableViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    title = "Build Form"
+    title = "Core Graphic"
     tableView.register(UITableViewCell.self, forCellReuseIdentifier: UITableViewCell.description())
   }
   

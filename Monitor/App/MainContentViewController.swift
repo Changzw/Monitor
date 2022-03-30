@@ -8,7 +8,6 @@
 import UIKit
 
 final class MainContentViewController: UITableViewController {
-  
   let items = MainContentBranch.allContents
   
   weak var flow: MainContentFlow?
@@ -44,6 +43,6 @@ final class MainContentViewController: UITableViewController {
   
   override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     tableView.deselectRow(at: indexPath, animated: true)
-    flow?.direct(to: .buildForm)
+    flow?.direct(to: items[indexPath.row])
   }
 }

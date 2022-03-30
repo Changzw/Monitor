@@ -47,8 +47,8 @@ final class BuildFormFlow: Flow {
   func direct(to branch: BuildFormBranch) {
     switch branch {
     case .content:
-      navigationViewController?.pushViewController(BuildingFormContentViewController(flow: self), animated: true)
-
+//      navigationViewController?.pushViewController(BuildingFormContentViewController(flow: self), animated: true)
+      break
     case .chapter0:
       let vc = BuildFormChapter0.ViewController()
       navigationViewController?.pushViewController(vc, animated: true)
@@ -73,7 +73,6 @@ final class BuildFormFlow: Flow {
     case .chapter7:
       chapter7Driver = BuildFormChapter7.FormDriver(initial: Hotspot(), build: BuildFormChapter7.hotspotForm)
       navigationViewController?.pushViewController(chapter7Driver!.formViewController, animated: true)
-
     }
   }
 }

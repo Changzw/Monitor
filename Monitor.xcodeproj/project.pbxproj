@@ -23,6 +23,14 @@
 		07DCCA6127F491F7000B0F5E /* MainContentFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCCA6027F491F7000B0F5E /* MainContentFlow.swift */; };
 		07DCCA6327F4949B000B0F5E /* MainContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCCA6227F4949B000B0F5E /* MainContentViewController.swift */; };
 		07DCCA6527F49AC0000B0F5E /* BuildFormFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCCA6427F49AC0000B0F5E /* BuildFormFlow.swift */; };
+		07DCCA6927F4A599000B0F5E /* StackBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCCA6827F4A599000B0F5E /* StackBuilder.swift */; };
+		07DCCA6B27F4A6A5000B0F5E /* CoreGraphicFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCCA6A27F4A6A5000B0F5E /* CoreGraphicFlow.swift */; };
+		07DCCA6E27F4A7F6000B0F5E /* CoreGraphicContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCCA6D27F4A7F6000B0F5E /* CoreGraphicContentViewController.swift */; };
+		07DCCA7327F4A990000B0F5E /* CoolButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCCA6F27F4A990000B0F5E /* CoolButton.swift */; };
+		07DCCA7427F4A990000B0F5E /* GlossyButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCCA7027F4A990000B0F5E /* GlossyButtonViewController.swift */; };
+		07DCCA7527F4A990000B0F5E /* UIView+createRoundedRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCCA7127F4A990000B0F5E /* UIView+createRoundedRect.swift */; };
+		07DCCA7627F4A990000B0F5E /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCCA7227F4A990000B0F5E /* Drawing.swift */; };
+		07DCCA7827F4AC42000B0F5E /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCCA7727F4AC42000B0F5E /* Stacks.swift */; };
 		C6627CC1092A0A52BA632D55 /* Pods_Monitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB02687FDF6982F5E90A9BD /* Pods_Monitor.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +55,14 @@
 		07DCCA6027F491F7000B0F5E /* MainContentFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentFlow.swift; sourceTree = "<group>"; };
 		07DCCA6227F4949B000B0F5E /* MainContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentViewController.swift; sourceTree = "<group>"; };
 		07DCCA6427F49AC0000B0F5E /* BuildFormFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildFormFlow.swift; sourceTree = "<group>"; };
+		07DCCA6827F4A599000B0F5E /* StackBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackBuilder.swift; sourceTree = "<group>"; };
+		07DCCA6A27F4A6A5000B0F5E /* CoreGraphicFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphicFlow.swift; sourceTree = "<group>"; };
+		07DCCA6D27F4A7F6000B0F5E /* CoreGraphicContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphicContentViewController.swift; sourceTree = "<group>"; };
+		07DCCA6F27F4A990000B0F5E /* CoolButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoolButton.swift; sourceTree = "<group>"; };
+		07DCCA7027F4A990000B0F5E /* GlossyButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossyButtonViewController.swift; sourceTree = "<group>"; };
+		07DCCA7127F4A990000B0F5E /* UIView+createRoundedRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+createRoundedRect.swift"; sourceTree = "<group>"; };
+		07DCCA7227F4A990000B0F5E /* Drawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
+		07DCCA7727F4AC42000B0F5E /* Stacks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stacks.swift; sourceTree = "<group>"; };
 		253C923C1D72B27C4B01B383 /* Pods-Monitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Monitor.release.xcconfig"; path = "Target Support Files/Pods-Monitor/Pods-Monitor.release.xcconfig"; sourceTree = "<group>"; };
 		7AB02687FDF6982F5E90A9BD /* Pods_Monitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Monitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B563F738B42984FEA2470A43 /* Pods-Monitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Monitor.debug.xcconfig"; path = "Target Support Files/Pods-Monitor/Pods-Monitor.debug.xcconfig"; sourceTree = "<group>"; };
@@ -85,14 +101,12 @@
 		0715716F27F33CAE008259C9 /* Monitor */ = {
 			isa = PBXGroup;
 			children = (
+				07DCCA6727F4A57F000B0F5E /* Tools */,
+				07DCCA6627F4A30F000B0F5E /* App */,
 				07DCCA5D27F49196000B0F5E /* didiCoordinator */,
+				07DCCA6C27F4A7D5000B0F5E /* CoreGraphic */,
 				07B8224B27F34A57005B8EB3 /* BuildForm */,
 				07B820B127F340D9005B8EB3 /* Coordinator */,
-				0715717027F33CAE008259C9 /* AppDelegate.swift */,
-				07DCCA6227F4949B000B0F5E /* MainContentViewController.swift */,
-				0715717927F33CAE008259C9 /* Assets.xcassets */,
-				0715717B27F33CAE008259C9 /* LaunchScreen.storyboard */,
-				0715717E27F33CAE008259C9 /* Info.plist */,
 			);
 			path = Monitor;
 			sourceTree = "<group>";
@@ -128,8 +142,42 @@
 				07DCCA5E27F491AF000B0F5E /* Flow.swift */,
 				07DCCA6027F491F7000B0F5E /* MainContentFlow.swift */,
 				07DCCA6427F49AC0000B0F5E /* BuildFormFlow.swift */,
+				07DCCA6A27F4A6A5000B0F5E /* CoreGraphicFlow.swift */,
 			);
 			path = didiCoordinator;
+			sourceTree = "<group>";
+		};
+		07DCCA6627F4A30F000B0F5E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0715717027F33CAE008259C9 /* AppDelegate.swift */,
+				07DCCA6227F4949B000B0F5E /* MainContentViewController.swift */,
+				0715717927F33CAE008259C9 /* Assets.xcassets */,
+				0715717B27F33CAE008259C9 /* LaunchScreen.storyboard */,
+				0715717E27F33CAE008259C9 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		07DCCA6727F4A57F000B0F5E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				07DCCA6827F4A599000B0F5E /* StackBuilder.swift */,
+				07DCCA7727F4AC42000B0F5E /* Stacks.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		07DCCA6C27F4A7D5000B0F5E /* CoreGraphic */ = {
+			isa = PBXGroup;
+			children = (
+				07DCCA6D27F4A7F6000B0F5E /* CoreGraphicContentViewController.swift */,
+				07DCCA6F27F4A990000B0F5E /* CoolButton.swift */,
+				07DCCA7227F4A990000B0F5E /* Drawing.swift */,
+				07DCCA7027F4A990000B0F5E /* GlossyButtonViewController.swift */,
+				07DCCA7127F4A990000B0F5E /* UIView+createRoundedRect.swift */,
+			);
+			path = CoreGraphic;
 			sourceTree = "<group>";
 		};
 		62868D8531AC909A70132765 /* Pods */ = {
@@ -265,18 +313,26 @@
 			files = (
 				07B8225127F34D79005B8EB3 /* BuildFormChapter2.swift in Sources */,
 				077F18C427F3533800709CBA /* BuildFormChapter4.swift in Sources */,
+				07DCCA7827F4AC42000B0F5E /* Stacks.swift in Sources */,
 				07DCCA6327F4949B000B0F5E /* MainContentViewController.swift in Sources */,
 				077F18C127F34FBA00709CBA /* BuildFormChapter3.swift in Sources */,
+				07DCCA6E27F4A7F6000B0F5E /* CoreGraphicContentViewController.swift in Sources */,
+				07DCCA7427F4A990000B0F5E /* GlossyButtonViewController.swift in Sources */,
 				07B8224D27F34AD2005B8EB3 /* BuildFormChapter0.swift in Sources */,
 				077F18C727F353EB00709CBA /* BuildFormChapter5.swift in Sources */,
+				07DCCA7627F4A990000B0F5E /* Drawing.swift in Sources */,
+				07DCCA6927F4A599000B0F5E /* StackBuilder.swift in Sources */,
 				0715717527F33CAE008259C9 /* BuildingFormContentViewController.swift in Sources */,
 				07DCCA6127F491F7000B0F5E /* MainContentFlow.swift in Sources */,
 				07DCCA6527F49AC0000B0F5E /* BuildFormFlow.swift in Sources */,
+				07DCCA7527F4A990000B0F5E /* UIView+createRoundedRect.swift in Sources */,
 				0715717127F33CAE008259C9 /* AppDelegate.swift in Sources */,
 				07B8224F27F34C72005B8EB3 /* BuildFormChapter1.swift in Sources */,
 				07DCCA5F27F491AF000B0F5E /* Flow.swift in Sources */,
+				07DCCA7327F4A990000B0F5E /* CoolButton.swift in Sources */,
 				077F18C827F353EB00709CBA /* BuildFormChapter6.swift in Sources */,
 				077F18CA27F357E300709CBA /* BuildFormChapter7.swift in Sources */,
+				07DCCA6B27F4A6A5000B0F5E /* CoreGraphicFlow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,7 +474,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LH8PPFBRK4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Monitor/Info.plist;
+				INFOPLIST_FILE = Monitor/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -447,7 +503,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LH8PPFBRK4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Monitor/Info.plist;
+				INFOPLIST_FILE = Monitor/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;

@@ -16,4 +16,3 @@ protocol Flow {
   init(rootViewController: UIViewController) 
   func direct(to branch: BranchType)
 }
-

@@ -15,6 +15,7 @@ struct A: CaseIterable {
 enum MainContentBranch: Branch, CaseIterable {
   case content
   case buildForm
+  case coreGraphic
   
   static var allContents: [MainContentBranch] {
     Array(MainContentBranch.allCases[1...])
@@ -29,11 +30,13 @@ final class MainContentFlow: Flow {
   }
   
   private let buildFormFlow: BuildFormFlow
+  private let coreGraphicFlow: CoreGraphicFlow
   let rootViewController: UIViewController?
   
   init(rootViewController: UIViewController) {
     self.rootViewController = rootViewController
     buildFormFlow = BuildFormFlow(rootViewController: rootViewController)
+    coreGraphicFlow = CoreGraphicFlow(rootViewController: rootViewController)
   }
   
   func direct(to branch: MainContentBranch) {
@@ -42,6 +45,8 @@ final class MainContentFlow: Flow {
       navigationViewController?.setViewControllers([MainContentViewController(flow: self)], animated: false)
     case .buildForm:
       navigationViewController?.pushViewController(BuildingFormContentViewController(flow: buildFormFlow), animated: true)
+    case .coreGraphic:
+      navigationViewController?.pushViewController(CoreGraphicContentViewController(flow: coreGraphicFlow), animated: true)
     }
   }
 }
