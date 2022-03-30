@@ -11,7 +11,6 @@ import XCoordinator
 class BuildingFormContentViewController: UITableViewController {
   private let items = BuildFormBranch.allContents
   private weak var flow: BuildFormFlow?
-//  private let router: UnownedRouter<BuildingFormLibraryRoute>
   init(flow: BuildFormFlow) {
     self.flow = flow
     super.init(nibName: nil, bundle: nil)

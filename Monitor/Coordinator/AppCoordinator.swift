@@ -17,4 +17,3 @@ enum AppRoute: Route, CaseIterable {
   }
 }
 
-
