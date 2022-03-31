@@ -101,14 +101,22 @@
 		0715716F27F33CAE008259C9 /* Monitor */ = {
 			isa = PBXGroup;
 			children = (
+				0721689927F5AA9500FE1021 /* Dig */,
 				07DCCA6727F4A57F000B0F5E /* Tools */,
 				07DCCA6627F4A30F000B0F5E /* App */,
 				07DCCA5D27F49196000B0F5E /* didiCoordinator */,
-				07DCCA6C27F4A7D5000B0F5E /* CoreGraphic */,
-				07B8224B27F34A57005B8EB3 /* BuildForm */,
 				07B820B127F340D9005B8EB3 /* Coordinator */,
 			);
 			path = Monitor;
+			sourceTree = "<group>";
+		};
+		0721689927F5AA9500FE1021 /* Dig */ = {
+			isa = PBXGroup;
+			children = (
+				07DCCA6C27F4A7D5000B0F5E /* CoreGraphic */,
+				07B8224B27F34A57005B8EB3 /* BuildForm */,
+			);
+			path = Dig;
 			sourceTree = "<group>";
 		};
 		07B820B127F340D9005B8EB3 /* Coordinator */ = {
