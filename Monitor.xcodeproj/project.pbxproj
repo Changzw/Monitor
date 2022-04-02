@@ -11,6 +11,8 @@
 		0715717527F33CAE008259C9 /* BuildingFormContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0715717427F33CAE008259C9 /* BuildingFormContentViewController.swift */; };
 		0715717A27F33CAE008259C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0715717927F33CAE008259C9 /* Assets.xcassets */; };
 		0715717D27F33CAE008259C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0715717B27F33CAE008259C9 /* LaunchScreen.storyboard */; };
+		0739A2AF27F8002600E7B4A2 /* FunctionalProgramFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0739A2AE27F8002600E7B4A2 /* FunctionalProgramFlow.swift */; };
+		0739A2B227F8032D00E7B4A2 /* FunctionalProgramContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0739A2B127F8032D00E7B4A2 /* FunctionalProgramContentViewController.swift */; };
 		077F18C127F34FBA00709CBA /* BuildFormChapter3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077F18C027F34FBA00709CBA /* BuildFormChapter3.swift */; };
 		077F18C427F3533800709CBA /* BuildFormChapter4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077F18C327F3533800709CBA /* BuildFormChapter4.swift */; };
 		077F18C727F353EB00709CBA /* BuildFormChapter5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077F18C527F353EB00709CBA /* BuildFormChapter5.swift */; };
@@ -31,6 +33,7 @@
 		07DCCA7527F4A990000B0F5E /* UIView+createRoundedRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCCA7127F4A990000B0F5E /* UIView+createRoundedRect.swift */; };
 		07DCCA7627F4A990000B0F5E /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCCA7227F4A990000B0F5E /* Drawing.swift */; };
 		07DCCA7827F4AC42000B0F5E /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCCA7727F4AC42000B0F5E /* Stacks.swift */; };
+		07F1481827F6F3FD00D5B611 /* Curry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F1481727F6F3FD00D5B611 /* Curry.swift */; };
 		C6627CC1092A0A52BA632D55 /* Pods_Monitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB02687FDF6982F5E90A9BD /* Pods_Monitor.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +44,8 @@
 		0715717927F33CAE008259C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0715717C27F33CAE008259C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0715717E27F33CAE008259C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0739A2AE27F8002600E7B4A2 /* FunctionalProgramFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionalProgramFlow.swift; sourceTree = "<group>"; };
+		0739A2B127F8032D00E7B4A2 /* FunctionalProgramContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionalProgramContentViewController.swift; sourceTree = "<group>"; };
 		077F18C027F34FBA00709CBA /* BuildFormChapter3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildFormChapter3.swift; sourceTree = "<group>"; };
 		077F18C327F3533800709CBA /* BuildFormChapter4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildFormChapter4.swift; sourceTree = "<group>"; };
 		077F18C527F353EB00709CBA /* BuildFormChapter5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildFormChapter5.swift; sourceTree = "<group>"; };
@@ -63,6 +68,7 @@
 		07DCCA7127F4A990000B0F5E /* UIView+createRoundedRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+createRoundedRect.swift"; sourceTree = "<group>"; };
 		07DCCA7227F4A990000B0F5E /* Drawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
 		07DCCA7727F4AC42000B0F5E /* Stacks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stacks.swift; sourceTree = "<group>"; };
+		07F1481727F6F3FD00D5B611 /* Curry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curry.swift; sourceTree = "<group>"; };
 		253C923C1D72B27C4B01B383 /* Pods-Monitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Monitor.release.xcconfig"; path = "Target Support Files/Pods-Monitor/Pods-Monitor.release.xcconfig"; sourceTree = "<group>"; };
 		7AB02687FDF6982F5E90A9BD /* Pods_Monitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Monitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B563F738B42984FEA2470A43 /* Pods-Monitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Monitor.debug.xcconfig"; path = "Target Support Files/Pods-Monitor/Pods-Monitor.debug.xcconfig"; sourceTree = "<group>"; };
@@ -101,6 +107,7 @@
 		0715716F27F33CAE008259C9 /* Monitor */ = {
 			isa = PBXGroup;
 			children = (
+				07F1481627F6F3ED00D5B611 /* Swift language */,
 				0721689927F5AA9500FE1021 /* Dig */,
 				07DCCA6727F4A57F000B0F5E /* Tools */,
 				07DCCA6627F4A30F000B0F5E /* App */,
@@ -113,10 +120,27 @@
 		0721689927F5AA9500FE1021 /* Dig */ = {
 			isa = PBXGroup;
 			children = (
+				0739A2B027F8030100E7B4A2 /* Functional */,
+				0721689A27F5EC6A00FE1021 /* OpenGL */,
 				07DCCA6C27F4A7D5000B0F5E /* CoreGraphic */,
 				07B8224B27F34A57005B8EB3 /* BuildForm */,
 			);
 			path = Dig;
+			sourceTree = "<group>";
+		};
+		0721689A27F5EC6A00FE1021 /* OpenGL */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OpenGL;
+			sourceTree = "<group>";
+		};
+		0739A2B027F8030100E7B4A2 /* Functional */ = {
+			isa = PBXGroup;
+			children = (
+				0739A2B127F8032D00E7B4A2 /* FunctionalProgramContentViewController.swift */,
+			);
+			path = Functional;
 			sourceTree = "<group>";
 		};
 		07B820B127F340D9005B8EB3 /* Coordinator */ = {
@@ -151,6 +175,7 @@
 				07DCCA6027F491F7000B0F5E /* MainContentFlow.swift */,
 				07DCCA6427F49AC0000B0F5E /* BuildFormFlow.swift */,
 				07DCCA6A27F4A6A5000B0F5E /* CoreGraphicFlow.swift */,
+				0739A2AE27F8002600E7B4A2 /* FunctionalProgramFlow.swift */,
 			);
 			path = didiCoordinator;
 			sourceTree = "<group>";
@@ -186,6 +211,14 @@
 				07DCCA7127F4A990000B0F5E /* UIView+createRoundedRect.swift */,
 			);
 			path = CoreGraphic;
+			sourceTree = "<group>";
+		};
+		07F1481627F6F3ED00D5B611 /* Swift language */ = {
+			isa = PBXGroup;
+			children = (
+				07F1481727F6F3FD00D5B611 /* Curry.swift */,
+			);
+			path = "Swift language";
 			sourceTree = "<group>";
 		};
 		62868D8531AC909A70132765 /* Pods */ = {
@@ -320,6 +353,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07B8225127F34D79005B8EB3 /* BuildFormChapter2.swift in Sources */,
+				0739A2AF27F8002600E7B4A2 /* FunctionalProgramFlow.swift in Sources */,
 				077F18C427F3533800709CBA /* BuildFormChapter4.swift in Sources */,
 				07DCCA7827F4AC42000B0F5E /* Stacks.swift in Sources */,
 				07DCCA6327F4949B000B0F5E /* MainContentViewController.swift in Sources */,
@@ -328,8 +362,10 @@
 				07DCCA7427F4A990000B0F5E /* GlossyButtonViewController.swift in Sources */,
 				07B8224D27F34AD2005B8EB3 /* BuildFormChapter0.swift in Sources */,
 				077F18C727F353EB00709CBA /* BuildFormChapter5.swift in Sources */,
+				0739A2B227F8032D00E7B4A2 /* FunctionalProgramContentViewController.swift in Sources */,
 				07DCCA7627F4A990000B0F5E /* Drawing.swift in Sources */,
 				07DCCA6927F4A599000B0F5E /* StackBuilder.swift in Sources */,
+				07F1481827F6F3FD00D5B611 /* Curry.swift in Sources */,
 				0715717527F33CAE008259C9 /* BuildingFormContentViewController.swift in Sources */,
 				07DCCA6127F491F7000B0F5E /* MainContentFlow.swift in Sources */,
 				07DCCA6527F49AC0000B0F5E /* BuildFormFlow.swift in Sources */,
