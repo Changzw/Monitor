@@ -13,6 +13,9 @@ final class FunctionalProgramContentViewController: UITableViewController {
   
   init(flow: FunctionProgramContentFlow) {
     self.flow = flow
+    [].map { _ in
+      true
+    }
     super.init(nibName: nil, bundle: nil)
   }
   

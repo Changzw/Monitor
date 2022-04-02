@@ -11,6 +11,8 @@ import UIKit
 enum FunctionProgramContentBranch: Branch, CaseIterable {
   case content
   
+  case battleShip
+  
   static var allContents: [FunctionProgramContentBranch] {
     Array(FunctionProgramContentBranch.allCases[1...])
   }
@@ -37,6 +39,10 @@ final class FunctionProgramContentFlow: Flow {
     switch branch {
     case .content:
       navigationViewController?.setViewControllers([FunctionalProgramContentViewController(flow: self)], animated: false)
+    case .battleShip:
+      
+      break
+      
     }
   }
 }

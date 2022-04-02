@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0704C73127F8247A0009FAD3 /* BattleShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0704C73027F8247A0009FAD3 /* BattleShip.swift */; };
+		0704C73327F8357F0009FAD3 /* Map,Filter,Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0704C73227F8357F0009FAD3 /* Map,Filter,Reduce.swift */; };
+		0704C73527F856D00009FAD3 /* EnumStructFunctional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0704C73427F856D00009FAD3 /* EnumStructFunctional.swift */; };
 		0715717127F33CAE008259C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0715717027F33CAE008259C9 /* AppDelegate.swift */; };
 		0715717527F33CAE008259C9 /* BuildingFormContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0715717427F33CAE008259C9 /* BuildingFormContentViewController.swift */; };
 		0715717A27F33CAE008259C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0715717927F33CAE008259C9 /* Assets.xcassets */; };
@@ -38,6 +41,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0704C73027F8247A0009FAD3 /* BattleShip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleShip.swift; sourceTree = "<group>"; };
+		0704C73227F8357F0009FAD3 /* Map,Filter,Reduce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Map,Filter,Reduce.swift"; sourceTree = "<group>"; };
+		0704C73427F856D00009FAD3 /* EnumStructFunctional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumStructFunctional.swift; sourceTree = "<group>"; };
 		0715716D27F33CAE008259C9 /* Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0715717027F33CAE008259C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0715717427F33CAE008259C9 /* BuildingFormContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingFormContentViewController.swift; sourceTree = "<group>"; };
@@ -139,6 +145,9 @@
 			isa = PBXGroup;
 			children = (
 				0739A2B127F8032D00E7B4A2 /* FunctionalProgramContentViewController.swift */,
+				0704C73027F8247A0009FAD3 /* BattleShip.swift */,
+				0704C73227F8357F0009FAD3 /* Map,Filter,Reduce.swift */,
+				0704C73427F856D00009FAD3 /* EnumStructFunctional.swift */,
 			);
 			path = Functional;
 			sourceTree = "<group>";
@@ -359,12 +368,14 @@
 				07DCCA6327F4949B000B0F5E /* MainContentViewController.swift in Sources */,
 				077F18C127F34FBA00709CBA /* BuildFormChapter3.swift in Sources */,
 				07DCCA6E27F4A7F6000B0F5E /* CoreGraphicContentViewController.swift in Sources */,
+				0704C73127F8247A0009FAD3 /* BattleShip.swift in Sources */,
 				07DCCA7427F4A990000B0F5E /* GlossyButtonViewController.swift in Sources */,
 				07B8224D27F34AD2005B8EB3 /* BuildFormChapter0.swift in Sources */,
 				077F18C727F353EB00709CBA /* BuildFormChapter5.swift in Sources */,
 				0739A2B227F8032D00E7B4A2 /* FunctionalProgramContentViewController.swift in Sources */,
 				07DCCA7627F4A990000B0F5E /* Drawing.swift in Sources */,
 				07DCCA6927F4A599000B0F5E /* StackBuilder.swift in Sources */,
+				0704C73327F8357F0009FAD3 /* Map,Filter,Reduce.swift in Sources */,
 				07F1481827F6F3FD00D5B611 /* Curry.swift in Sources */,
 				0715717527F33CAE008259C9 /* BuildingFormContentViewController.swift in Sources */,
 				07DCCA6127F491F7000B0F5E /* MainContentFlow.swift in Sources */,
@@ -377,6 +388,7 @@
 				077F18C827F353EB00709CBA /* BuildFormChapter6.swift in Sources */,
 				077F18CA27F357E300709CBA /* BuildFormChapter7.swift in Sources */,
 				07DCCA6B27F4A6A5000B0F5E /* CoreGraphicFlow.swift in Sources */,
+				0704C73527F856D00009FAD3 /* EnumStructFunctional.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
