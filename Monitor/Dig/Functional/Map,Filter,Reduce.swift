@@ -73,6 +73,7 @@ enum Chapter4 {
 }
 
 extension Sequence {
+  //MARK: - Map - Functor, f(x) = y
   func map_<T>(_ transform: (Element) throws -> T) rethrows -> [T] {
     var result: [T] = []
     for x in self {
@@ -103,13 +104,14 @@ extension Sequence {
   }
   
   //[Self.Element] -> [SegmentOfResult.Element]
-  public func flatMap_<SegmentOfResult: Sequence>(_ transform: (Element) throws -> SegmentOfResult) rethrows -> [SegmentOfResult.Element] {
-    var result: [SegmentOfResult.Element] = []
+  func flatMap_<S: Sequence>(_ transform: (Element) throws -> S) rethrows -> [S.Element] {
+    var result: [S.Element] = []
     for element in self {
       result.append(contentsOf: try transform(element))
     }
     return result
   }
+  
   
   // [T] -> T
   @inlinable
