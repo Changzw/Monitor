@@ -16,11 +16,16 @@
 		0715717D27F33CAE008259C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0715717B27F33CAE008259C9 /* LaunchScreen.storyboard */; };
 		0739A2AF27F8002600E7B4A2 /* FunctionalProgramFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0739A2AE27F8002600E7B4A2 /* FunctionalProgramFlow.swift */; };
 		0739A2B227F8032D00E7B4A2 /* FunctionalProgramContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0739A2B127F8032D00E7B4A2 /* FunctionalProgramContentViewController.swift */; };
+		074704E52806B1C3007BEA46 /* CGPath+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074704E42806B1C3007BEA46 /* CGPath+extension.swift */; };
 		077F18C127F34FBA00709CBA /* BuildFormChapter3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077F18C027F34FBA00709CBA /* BuildFormChapter3.swift */; };
 		077F18C427F3533800709CBA /* BuildFormChapter4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077F18C327F3533800709CBA /* BuildFormChapter4.swift */; };
 		077F18C727F353EB00709CBA /* BuildFormChapter5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077F18C527F353EB00709CBA /* BuildFormChapter5.swift */; };
 		077F18C827F353EB00709CBA /* BuildFormChapter6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077F18C627F353EB00709CBA /* BuildFormChapter6.swift */; };
 		077F18CA27F357E300709CBA /* BuildFormChapter7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077F18C927F357E300709CBA /* BuildFormChapter7.swift */; };
+		07A29408280677E300CFFF03 /* BorderGradientButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A29407280677E300CFFF03 /* BorderGradientButtonViewController.swift */; };
+		07A2940A280681C500CFFF03 /* PathGradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A29409280681C500CFFF03 /* PathGradientButton.swift */; };
+		07A2940D2806A03D00CFFF03 /* UIColor+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A2940C2806A03D00CFFF03 /* UIColor+extensions.swift */; };
+		07A2940F2806AD0800CFFF03 /* CGContext+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A2940E2806AD0800CFFF03 /* CGContext+extensions.swift */; };
 		07B8224D27F34AD2005B8EB3 /* BuildFormChapter0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B8224C27F34AD2005B8EB3 /* BuildFormChapter0.swift */; };
 		07B8224F27F34C72005B8EB3 /* BuildFormChapter1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B8224E27F34C72005B8EB3 /* BuildFormChapter1.swift */; };
 		07B8225127F34D79005B8EB3 /* BuildFormChapter2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B8225027F34D79005B8EB3 /* BuildFormChapter2.swift */; };
@@ -34,7 +39,6 @@
 		07DCCA7327F4A990000B0F5E /* CoolButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCCA6F27F4A990000B0F5E /* CoolButton.swift */; };
 		07DCCA7427F4A990000B0F5E /* GlossyButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCCA7027F4A990000B0F5E /* GlossyButtonViewController.swift */; };
 		07DCCA7527F4A990000B0F5E /* UIView+createRoundedRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCCA7127F4A990000B0F5E /* UIView+createRoundedRect.swift */; };
-		07DCCA7627F4A990000B0F5E /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCCA7227F4A990000B0F5E /* Drawing.swift */; };
 		07DCCA7827F4AC42000B0F5E /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCCA7727F4AC42000B0F5E /* Stacks.swift */; };
 		07F1481827F6F3FD00D5B611 /* Curry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F1481727F6F3FD00D5B611 /* Curry.swift */; };
 		C6627CC1092A0A52BA632D55 /* Pods_Monitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB02687FDF6982F5E90A9BD /* Pods_Monitor.framework */; };
@@ -52,12 +56,17 @@
 		0715717E27F33CAE008259C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0739A2AE27F8002600E7B4A2 /* FunctionalProgramFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionalProgramFlow.swift; sourceTree = "<group>"; };
 		0739A2B127F8032D00E7B4A2 /* FunctionalProgramContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionalProgramContentViewController.swift; sourceTree = "<group>"; };
+		074704E42806B1C3007BEA46 /* CGPath+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPath+extension.swift"; sourceTree = "<group>"; };
 		077F18C027F34FBA00709CBA /* BuildFormChapter3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildFormChapter3.swift; sourceTree = "<group>"; };
 		077F18C327F3533800709CBA /* BuildFormChapter4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildFormChapter4.swift; sourceTree = "<group>"; };
 		077F18C527F353EB00709CBA /* BuildFormChapter5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildFormChapter5.swift; sourceTree = "<group>"; };
 		077F18C627F353EB00709CBA /* BuildFormChapter6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildFormChapter6.swift; sourceTree = "<group>"; };
 		077F18C927F357E300709CBA /* BuildFormChapter7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildFormChapter7.swift; sourceTree = "<group>"; };
 		077F18CB27F3592100709CBA /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		07A29407280677E300CFFF03 /* BorderGradientButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderGradientButtonViewController.swift; sourceTree = "<group>"; };
+		07A29409280681C500CFFF03 /* PathGradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathGradientButton.swift; sourceTree = "<group>"; };
+		07A2940C2806A03D00CFFF03 /* UIColor+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+extensions.swift"; sourceTree = "<group>"; };
+		07A2940E2806AD0800CFFF03 /* CGContext+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGContext+extensions.swift"; sourceTree = "<group>"; };
 		07B820B227F340EB005B8EB3 /* BuildFormCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildFormCoordinator.swift; sourceTree = "<group>"; };
 		07B8224C27F34AD2005B8EB3 /* BuildFormChapter0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildFormChapter0.swift; sourceTree = "<group>"; };
 		07B8224E27F34C72005B8EB3 /* BuildFormChapter1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildFormChapter1.swift; sourceTree = "<group>"; };
@@ -72,7 +81,6 @@
 		07DCCA6F27F4A990000B0F5E /* CoolButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoolButton.swift; sourceTree = "<group>"; };
 		07DCCA7027F4A990000B0F5E /* GlossyButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossyButtonViewController.swift; sourceTree = "<group>"; };
 		07DCCA7127F4A990000B0F5E /* UIView+createRoundedRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+createRoundedRect.swift"; sourceTree = "<group>"; };
-		07DCCA7227F4A990000B0F5E /* Drawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
 		07DCCA7727F4AC42000B0F5E /* Stacks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stacks.swift; sourceTree = "<group>"; };
 		07F1481727F6F3FD00D5B611 /* Curry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curry.swift; sourceTree = "<group>"; };
 		253C923C1D72B27C4B01B383 /* Pods-Monitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Monitor.release.xcconfig"; path = "Target Support Files/Pods-Monitor/Pods-Monitor.release.xcconfig"; sourceTree = "<group>"; };
@@ -113,6 +121,7 @@
 		0715716F27F33CAE008259C9 /* Monitor */ = {
 			isa = PBXGroup;
 			children = (
+				07A2940B2806A02E00CFFF03 /* extensions */,
 				07F1481627F6F3ED00D5B611 /* Swift language */,
 				0721689927F5AA9500FE1021 /* Dig */,
 				07DCCA6727F4A57F000B0F5E /* Tools */,
@@ -150,6 +159,16 @@
 				0704C73427F856D00009FAD3 /* EnumStructFunctional.swift */,
 			);
 			path = Functional;
+			sourceTree = "<group>";
+		};
+		07A2940B2806A02E00CFFF03 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				07A2940C2806A03D00CFFF03 /* UIColor+extensions.swift */,
+				07A2940E2806AD0800CFFF03 /* CGContext+extensions.swift */,
+				074704E42806B1C3007BEA46 /* CGPath+extension.swift */,
+			);
+			path = extensions;
 			sourceTree = "<group>";
 		};
 		07B820B127F340D9005B8EB3 /* Coordinator */ = {
@@ -215,9 +234,10 @@
 			children = (
 				07DCCA6D27F4A7F6000B0F5E /* CoreGraphicContentViewController.swift */,
 				07DCCA6F27F4A990000B0F5E /* CoolButton.swift */,
-				07DCCA7227F4A990000B0F5E /* Drawing.swift */,
 				07DCCA7027F4A990000B0F5E /* GlossyButtonViewController.swift */,
 				07DCCA7127F4A990000B0F5E /* UIView+createRoundedRect.swift */,
+				07A29407280677E300CFFF03 /* BorderGradientButtonViewController.swift */,
+				07A29409280681C500CFFF03 /* PathGradientButton.swift */,
 			);
 			path = CoreGraphic;
 			sourceTree = "<group>";
@@ -362,6 +382,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07B8225127F34D79005B8EB3 /* BuildFormChapter2.swift in Sources */,
+				074704E52806B1C3007BEA46 /* CGPath+extension.swift in Sources */,
 				0739A2AF27F8002600E7B4A2 /* FunctionalProgramFlow.swift in Sources */,
 				077F18C427F3533800709CBA /* BuildFormChapter4.swift in Sources */,
 				07DCCA7827F4AC42000B0F5E /* Stacks.swift in Sources */,
@@ -373,13 +394,16 @@
 				07B8224D27F34AD2005B8EB3 /* BuildFormChapter0.swift in Sources */,
 				077F18C727F353EB00709CBA /* BuildFormChapter5.swift in Sources */,
 				0739A2B227F8032D00E7B4A2 /* FunctionalProgramContentViewController.swift in Sources */,
-				07DCCA7627F4A990000B0F5E /* Drawing.swift in Sources */,
 				07DCCA6927F4A599000B0F5E /* StackBuilder.swift in Sources */,
 				0704C73327F8357F0009FAD3 /* Map,Filter,Reduce.swift in Sources */,
 				07F1481827F6F3FD00D5B611 /* Curry.swift in Sources */,
+				07A2940F2806AD0800CFFF03 /* CGContext+extensions.swift in Sources */,
 				0715717527F33CAE008259C9 /* BuildingFormContentViewController.swift in Sources */,
 				07DCCA6127F491F7000B0F5E /* MainContentFlow.swift in Sources */,
+				07A2940D2806A03D00CFFF03 /* UIColor+extensions.swift in Sources */,
 				07DCCA6527F49AC0000B0F5E /* BuildFormFlow.swift in Sources */,
+				07A29408280677E300CFFF03 /* BorderGradientButtonViewController.swift in Sources */,
+				07A2940A280681C500CFFF03 /* PathGradientButton.swift in Sources */,
 				07DCCA7527F4A990000B0F5E /* UIView+createRoundedRect.swift in Sources */,
 				0715717127F33CAE008259C9 /* AppDelegate.swift in Sources */,
 				07B8224F27F34C72005B8EB3 /* BuildFormChapter1.swift in Sources */,
@@ -456,7 +480,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -510,7 +534,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -536,6 +560,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -565,6 +590,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
