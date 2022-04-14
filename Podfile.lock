@@ -13,7 +13,9 @@ PODS:
     - RxSwift (= 6.5.0)
   - RxSwift (6.5.0)
   - SnapKit (5.0.1)
+  - SwiftTweaks (4.1.2)
   - Then (2.7.0)
+  - Toast-Swift (5.0.1)
   - XCoordinator (2.0.7):
     - XCoordinator/Core (= 2.0.7)
   - XCoordinator/Core (2.0.7)
@@ -26,7 +28,9 @@ DEPENDENCIES:
   - RxCocoa
   - RxSwift
   - SnapKit
+  - SwiftTweaks
   - Then
+  - Toast-Swift
   - XCoordinator
 
 SPEC REPOS:
@@ -39,7 +43,9 @@ SPEC REPOS:
     - RxRelay
     - RxSwift
     - SnapKit
+    - SwiftTweaks
     - Then
+    - Toast-Swift
     - XCoordinator
 
 SPEC CHECKSUMS:
@@ -51,9 +57,11 @@ SPEC CHECKSUMS:
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftTweaks: d00f20029460bec9aa0511007cdec708e95f213f
   Then: acfe0be7e98221c6204e12f8161459606d5d822d
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
   XCoordinator: 9ee654fedef1ffede33d5c11677708a555c00542
 
-PODFILE CHECKSUM: e632f7ac051aecb1fecf689f359cc6cbb50fcf1e
+PODFILE CHECKSUM: 39855810df36b835ea6623a6579eb99803a0f064
 
 COCOAPODS: 1.10.1

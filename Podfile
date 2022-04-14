@@ -19,8 +19,10 @@ target 'Monitor' do
   pod 'NSObject+Rx' #,  :binary=>true
   pod 'XCoordinator'#,  :binary=>true
   pod 'Then'
+  pod 'Toast-Swift'
   
   pod 'LookinServer', :configurations => ['Debug'] #UI调试工具：https://lookin.work
   pod 'FLEX', :configurations => ['Debug']
+  pod 'SwiftTweaks'
 end
 

@@ -33,6 +33,8 @@
 		07B8224D27F34AD2005B8EB3 /* BuildFormChapter0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B8224C27F34AD2005B8EB3 /* BuildFormChapter0.swift */; };
 		07B8224F27F34C72005B8EB3 /* BuildFormChapter1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B8224E27F34C72005B8EB3 /* BuildFormChapter1.swift */; };
 		07B8225127F34D79005B8EB3 /* BuildFormChapter2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B8225027F34D79005B8EB3 /* BuildFormChapter2.swift */; };
+		07C683C82807BFA400D6463C /* AppTweaks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C683C72807BFA400D6463C /* AppTweaks.swift */; };
+		07C683CA2807C1A300D6463C /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C683C92807C1A300D6463C /* Toast.swift */; };
 		07DCCA5F27F491AF000B0F5E /* Flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCCA5E27F491AF000B0F5E /* Flow.swift */; };
 		07DCCA6127F491F7000B0F5E /* MainContentFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCCA6027F491F7000B0F5E /* MainContentFlow.swift */; };
 		07DCCA6327F4949B000B0F5E /* MainContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCCA6227F4949B000B0F5E /* MainContentViewController.swift */; };
@@ -79,6 +81,8 @@
 		07B8224C27F34AD2005B8EB3 /* BuildFormChapter0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildFormChapter0.swift; sourceTree = "<group>"; };
 		07B8224E27F34C72005B8EB3 /* BuildFormChapter1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildFormChapter1.swift; sourceTree = "<group>"; };
 		07B8225027F34D79005B8EB3 /* BuildFormChapter2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildFormChapter2.swift; sourceTree = "<group>"; };
+		07C683C72807BFA400D6463C /* AppTweaks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTweaks.swift; sourceTree = "<group>"; };
+		07C683C92807C1A300D6463C /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		07DCCA5E27F491AF000B0F5E /* Flow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flow.swift; sourceTree = "<group>"; };
 		07DCCA6027F491F7000B0F5E /* MainContentFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentFlow.swift; sourceTree = "<group>"; };
 		07DCCA6227F4949B000B0F5E /* MainContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentViewController.swift; sourceTree = "<group>"; };
@@ -244,6 +248,8 @@
 			children = (
 				07DCCA6827F4A599000B0F5E /* StackBuilder.swift */,
 				07DCCA7727F4AC42000B0F5E /* Stacks.swift */,
+				07C683C72807BFA400D6463C /* AppTweaks.swift */,
+				07C683C92807C1A300D6463C /* Toast.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -404,6 +410,7 @@
 				07B8225127F34D79005B8EB3 /* BuildFormChapter2.swift in Sources */,
 				074704E52806B1C3007BEA46 /* CGPath+extension.swift in Sources */,
 				0739A2AF27F8002600E7B4A2 /* FunctionalProgramFlow.swift in Sources */,
+				07C683CA2807C1A300D6463C /* Toast.swift in Sources */,
 				077F18C427F3533800709CBA /* BuildFormChapter4.swift in Sources */,
 				07DCCA7827F4AC42000B0F5E /* Stacks.swift in Sources */,
 				07DCCA6327F4949B000B0F5E /* MainContentViewController.swift in Sources */,
@@ -436,6 +443,7 @@
 				077F18CA27F357E300709CBA /* BuildFormChapter7.swift in Sources */,
 				074704F328071DF0007BEA46 /* CoreGraphicTextView.swift in Sources */,
 				07DCCA6B27F4A6A5000B0F5E /* CoreGraphicFlow.swift in Sources */,
+				07C683C82807BFA400D6463C /* AppTweaks.swift in Sources */,
 				0704C73527F856D00009FAD3 /* EnumStructFunctional.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
