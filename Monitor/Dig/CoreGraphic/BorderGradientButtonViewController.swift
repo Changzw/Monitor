@@ -11,13 +11,13 @@ final class BorderGradientButtonViewController: UIViewController {
   let button = CPRelationButton()
   let buttonBezier = PathGradientButton()
   let labelHue = UILabel().then {
-    $0.text = "Hue"
+    $0.text = "bordersGap"
   }
   let labelSat = UILabel().then {
-    $0.text = "Sat"
+    $0.text = "outterBorderWidth"
   }
   let labelBri = UILabel().then {
-    $0.text = "Bri"
+    $0.text = "innerBorderWidth"
   }
   let sliderHue = UISlider()
   let sliderSat = UISlider()
@@ -35,13 +35,13 @@ final class BorderGradientButtonViewController: UIViewController {
     view.addSubview(buttonBezier)
     button.snp.makeConstraints{
       $0.width.equalTo(200)
-      $0.height.equalTo(100)
+      $0.height.equalTo(80)
       $0.centerX.equalToSuperview()
       $0.top.equalTo(view.safeAreaLayoutGuide.snp.top).offset(20)
     }
     buttonBezier.snp.makeConstraints{
       $0.width.equalTo(200)
-      $0.height.equalTo(100)
+      $0.height.equalTo(80)
       $0.centerX.equalToSuperview()
       $0.top.equalTo(button.snp.bottom).offset(20)
     }
@@ -54,7 +54,7 @@ final class BorderGradientButtonViewController: UIViewController {
       labelBri
       sliderBri
     }
-    .spacing(30)
+    .spacing(14)
     .alignment(.fill)
     .insetAll(20)
     
@@ -64,21 +64,26 @@ final class BorderGradientButtonViewController: UIViewController {
       $0.left.right.equalToSuperview()
     }
     
-//    sliderHue.rx.value
-//      .bind{ [unowned self] in
-////        self.button.hue = CGFloat($0)
-//      }
-//      .disposed(by: rx.disposeBag)
-//    sliderSat.rx.value
-//      .bind{ [unowned self] in
-////        self.button.saturation = CGFloat($0)
-//      }
-//      .disposed(by: rx.disposeBag)
-//    sliderBri.rx.value
-//      .bind{ [unowned self] in
-//        self.button.brightness = CGFloat($0)
-//      }
-//      .disposed(by: rx.disposeBag)
+    sliderHue.rx.value
+      .map{ $0 * 10 }// 0~5
+      .bind{ [unowned self] in
+        self.button.style.bordersGap = CGFloat($0)
+      }
+      .disposed(by: rx.disposeBag)
+
+    sliderSat.rx.value
+      .map{ $0 * 10 }// 0~5
+      .bind{ [unowned self] in
+        self.button.style.outterBorderWidth = CGFloat($0)
+      }
+      .disposed(by: rx.disposeBag)
+    
+    sliderBri.rx.value
+      .map{ $0 * 10 }// 0~5
+      .bind{ [unowned self] in
+        self.button.style.innerBorderWidth = CGFloat($0)
+      }
+      .disposed(by: rx.disposeBag)
   }
   
 }

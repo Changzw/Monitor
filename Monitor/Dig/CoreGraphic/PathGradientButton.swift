@@ -8,16 +8,16 @@
 import UIKit
 
 struct CPRelationButtonStyle {
-  let isFillGradient: Bool// = false
-  let outterBorderWidth: CGFloat = 1
-  let innerBorderWidth: CGFloat = 1
-  let innerBorderColor: UIColor// = UIColor.random
-  let bordersGap: CGFloat = 2
+  var isFillGradient: Bool// = false
+  var outterBorderWidth: CGFloat = 1
+  var innerBorderWidth: CGFloat = 1
+  var innerBorderColor: UIColor// = UIColor.random
+  var bordersGap: CGFloat = 2
   
-  let outterBorderGradientColors: [UIColor]// = [UIColor.random, UIColor.random]
-  let contentBgGradientColors: [UIColor]// = [UIColor.random, UIColor.random]
+  var outterBorderGradientColors: [UIColor]// = [UIColor.random, UIColor.random]
+  var contentBgGradientColors: [UIColor]// = [UIColor.random, UIColor.random]
   
-  let titleColor: UIColor// = .random
+  var titleColor: UIColor// = .random
 }
 
 extension CPRelationButtonStyle{
@@ -105,21 +105,12 @@ final class PathGradientButton: UIButton {
     }
   }
   
-  //  override init(frame: CGRect) {
-  //    super.init(frame: frame)
-  ////    layer.borderColor = UIColor.blue.cgColor
-  ////    layer.borderWidth = 1
-  //  }
-  //
-  //  required init?(coder: NSCoder) {
-  //    fatalError("init(coder:) has not been implemented")
-  //  }
-  
   override func draw(_ rect: CGRect) {
     guard let ctx = UIGraphicsGetCurrentContext() else { return }
     
     let outterOffset = style.outterBorderWidth/2
     let outterPath = UIBezierPath(roundedRect: rect.insetBy(dx: outterOffset, dy: outterOffset), cornerRadius: rect.midY-style.outterBorderWidth).cgPath// CGPath.rounded(for: bounds.insetBy(dx: outterOffset, dy: outterOffset), radius: bounds.height/2-outterOffset)
+    
     ctx.drawInStore {
       ctx.setLineWidth(style.outterBorderWidth)
       ctx.addPath(outterPath)

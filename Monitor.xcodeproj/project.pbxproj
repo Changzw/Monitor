@@ -17,6 +17,10 @@
 		0739A2AF27F8002600E7B4A2 /* FunctionalProgramFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0739A2AE27F8002600E7B4A2 /* FunctionalProgramFlow.swift */; };
 		0739A2B227F8032D00E7B4A2 /* FunctionalProgramContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0739A2B127F8032D00E7B4A2 /* FunctionalProgramContentViewController.swift */; };
 		074704E52806B1C3007BEA46 /* CGPath+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074704E42806B1C3007BEA46 /* CGPath+extension.swift */; };
+		074704F028071D6E007BEA46 /* CoreGraphicDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074704EF28071D6E007BEA46 /* CoreGraphicDemosViewController.swift */; };
+		074704F328071DF0007BEA46 /* CoreGraphicTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074704F228071DF0007BEA46 /* CoreGraphicTextView.swift */; };
+		074704F528072173007BEA46 /* CoreGraphicLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074704F428072173007BEA46 /* CoreGraphicLineView.swift */; };
+		074704F7280723CE007BEA46 /* CoreGraphicRectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074704F6280723CE007BEA46 /* CoreGraphicRectView.swift */; };
 		077F18C127F34FBA00709CBA /* BuildFormChapter3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077F18C027F34FBA00709CBA /* BuildFormChapter3.swift */; };
 		077F18C427F3533800709CBA /* BuildFormChapter4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077F18C327F3533800709CBA /* BuildFormChapter4.swift */; };
 		077F18C727F353EB00709CBA /* BuildFormChapter5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077F18C527F353EB00709CBA /* BuildFormChapter5.swift */; };
@@ -57,6 +61,10 @@
 		0739A2AE27F8002600E7B4A2 /* FunctionalProgramFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionalProgramFlow.swift; sourceTree = "<group>"; };
 		0739A2B127F8032D00E7B4A2 /* FunctionalProgramContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionalProgramContentViewController.swift; sourceTree = "<group>"; };
 		074704E42806B1C3007BEA46 /* CGPath+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPath+extension.swift"; sourceTree = "<group>"; };
+		074704EF28071D6E007BEA46 /* CoreGraphicDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphicDemosViewController.swift; sourceTree = "<group>"; };
+		074704F228071DF0007BEA46 /* CoreGraphicTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphicTextView.swift; sourceTree = "<group>"; };
+		074704F428072173007BEA46 /* CoreGraphicLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphicLineView.swift; sourceTree = "<group>"; };
+		074704F6280723CE007BEA46 /* CoreGraphicRectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphicRectView.swift; sourceTree = "<group>"; };
 		077F18C027F34FBA00709CBA /* BuildFormChapter3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildFormChapter3.swift; sourceTree = "<group>"; };
 		077F18C327F3533800709CBA /* BuildFormChapter4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildFormChapter4.swift; sourceTree = "<group>"; };
 		077F18C527F353EB00709CBA /* BuildFormChapter5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildFormChapter5.swift; sourceTree = "<group>"; };
@@ -161,6 +169,17 @@
 			path = Functional;
 			sourceTree = "<group>";
 		};
+		074704F128071D99007BEA46 /* CoreGrahpicDemos */ = {
+			isa = PBXGroup;
+			children = (
+				074704EF28071D6E007BEA46 /* CoreGraphicDemosViewController.swift */,
+				074704F228071DF0007BEA46 /* CoreGraphicTextView.swift */,
+				074704F428072173007BEA46 /* CoreGraphicLineView.swift */,
+				074704F6280723CE007BEA46 /* CoreGraphicRectView.swift */,
+			);
+			path = CoreGrahpicDemos;
+			sourceTree = "<group>";
+		};
 		07A2940B2806A02E00CFFF03 /* extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -232,6 +251,7 @@
 		07DCCA6C27F4A7D5000B0F5E /* CoreGraphic */ = {
 			isa = PBXGroup;
 			children = (
+				074704F128071D99007BEA46 /* CoreGrahpicDemos */,
 				07DCCA6D27F4A7F6000B0F5E /* CoreGraphicContentViewController.swift */,
 				07DCCA6F27F4A990000B0F5E /* CoolButton.swift */,
 				07DCCA7027F4A990000B0F5E /* GlossyButtonViewController.swift */,
@@ -389,12 +409,14 @@
 				07DCCA6327F4949B000B0F5E /* MainContentViewController.swift in Sources */,
 				077F18C127F34FBA00709CBA /* BuildFormChapter3.swift in Sources */,
 				07DCCA6E27F4A7F6000B0F5E /* CoreGraphicContentViewController.swift in Sources */,
+				074704F7280723CE007BEA46 /* CoreGraphicRectView.swift in Sources */,
 				0704C73127F8247A0009FAD3 /* BattleShip.swift in Sources */,
 				07DCCA7427F4A990000B0F5E /* GlossyButtonViewController.swift in Sources */,
 				07B8224D27F34AD2005B8EB3 /* BuildFormChapter0.swift in Sources */,
 				077F18C727F353EB00709CBA /* BuildFormChapter5.swift in Sources */,
 				0739A2B227F8032D00E7B4A2 /* FunctionalProgramContentViewController.swift in Sources */,
 				07DCCA6927F4A599000B0F5E /* StackBuilder.swift in Sources */,
+				074704F528072173007BEA46 /* CoreGraphicLineView.swift in Sources */,
 				0704C73327F8357F0009FAD3 /* Map,Filter,Reduce.swift in Sources */,
 				07F1481827F6F3FD00D5B611 /* Curry.swift in Sources */,
 				07A2940F2806AD0800CFFF03 /* CGContext+extensions.swift in Sources */,
@@ -404,6 +426,7 @@
 				07DCCA6527F49AC0000B0F5E /* BuildFormFlow.swift in Sources */,
 				07A29408280677E300CFFF03 /* BorderGradientButtonViewController.swift in Sources */,
 				07A2940A280681C500CFFF03 /* PathGradientButton.swift in Sources */,
+				074704F028071D6E007BEA46 /* CoreGraphicDemosViewController.swift in Sources */,
 				07DCCA7527F4A990000B0F5E /* UIView+createRoundedRect.swift in Sources */,
 				0715717127F33CAE008259C9 /* AppDelegate.swift in Sources */,
 				07B8224F27F34C72005B8EB3 /* BuildFormChapter1.swift in Sources */,
@@ -411,6 +434,7 @@
 				07DCCA7327F4A990000B0F5E /* CoolButton.swift in Sources */,
 				077F18C827F353EB00709CBA /* BuildFormChapter6.swift in Sources */,
 				077F18CA27F357E300709CBA /* BuildFormChapter7.swift in Sources */,
+				074704F328071DF0007BEA46 /* CoreGraphicTextView.swift in Sources */,
 				07DCCA6B27F4A6A5000B0F5E /* CoreGraphicFlow.swift in Sources */,
 				0704C73527F856D00009FAD3 /* EnumStructFunctional.swift in Sources */,
 			);
