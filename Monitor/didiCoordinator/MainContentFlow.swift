@@ -17,6 +17,7 @@ enum MainContentBranch: Branch, CaseIterable {
   case buildForm
   case coreGraphic
   case functional
+  case journal
   
   static var allContents: [MainContentBranch] {
     Array(MainContentBranch.allCases[1...])
@@ -34,12 +35,14 @@ final class MainContentFlow: Flow {
   private let buildFormFlow: BuildFormFlow
   private let coreGraphicFlow: CoreGraphicFlow
   private let functionalProgramFlow: FunctionProgramContentFlow
+  private let journalFlow: JournalContentFlow
   
   init(rootViewController: UIViewController) {
     self.rootViewController = rootViewController
     buildFormFlow = BuildFormFlow(rootViewController: rootViewController)
     coreGraphicFlow = CoreGraphicFlow(rootViewController: rootViewController)
     functionalProgramFlow = FunctionProgramContentFlow(rootViewController: rootViewController)
+    journalFlow = JournalContentFlow(rootViewController: rootViewController)
   }
   
   func direct(to branch: MainContentBranch) {
@@ -52,6 +55,8 @@ final class MainContentFlow: Flow {
       navigationViewController?.pushViewController(CoreGraphicContentViewController(flow: coreGraphicFlow), animated: true)
     case .functional:
       navigationViewController?.pushViewController(FunctionalProgramContentViewController(flow: functionalProgramFlow), animated: true)
+    case .journal:
+      navigationViewController?.pushViewController(JournalContentViewController(flow: journalFlow), animated: true)
     }
   }
 }

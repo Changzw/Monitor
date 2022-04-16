@@ -35,6 +35,22 @@
 		07B8225127F34D79005B8EB3 /* BuildFormChapter2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B8225027F34D79005B8EB3 /* BuildFormChapter2.swift */; };
 		07C683C82807BFA400D6463C /* AppTweaks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C683C72807BFA400D6463C /* AppTweaks.swift */; };
 		07C683CA2807C1A300D6463C /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C683C92807C1A300D6463C /* Toast.swift */; };
+		07C683CC2807C8CA00D6463C /* JournalContentFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C683CB2807C8CA00D6463C /* JournalContentFlow.swift */; };
+		07C683CF2807C96F00D6463C /* JournalContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C683CE2807C96F00D6463C /* JournalContentViewController.swift */; };
+		07C683D32807CAFA00D6463C /* JournalPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C683D22807CAFA00D6463C /* JournalPageViewController.swift */; };
+		07C683E02807FCA500D6463C /* BookCoverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C683D72807FCA500D6463C /* BookCoverCell.swift */; };
+		07C683E12807FCA500D6463C /* BooksLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C683D82807FCA500D6463C /* BooksLayout.swift */; };
+		07C683E22807FCA500D6463C /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C683D92807FCA500D6463C /* BooksViewController.swift */; };
+		07C683E32807FCA500D6463C /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C683DA2807FCA500D6463C /* BookViewController.swift */; };
+		07C683E42807FCA500D6463C /* BookPageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C683DB2807FCA500D6463C /* BookPageCell.swift */; };
+		07C683E52807FCA500D6463C /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C683DC2807FCA500D6463C /* Book.swift */; };
+		07C683E62807FCA500D6463C /* Books.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07C683DD2807FCA500D6463C /* Books.plist */; };
+		07C683E72807FCA500D6463C /* BookStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C683DE2807FCA500D6463C /* BookStore.swift */; };
+		07C683E82807FCA500D6463C /* BookLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C683DF2807FCA500D6463C /* BookLayout.swift */; };
+		07C683EA2807FCB100D6463C /* UIImage+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C683E92807FCB100D6463C /* UIImage+Helpers.swift */; };
+		07C683F1280817F200D6463C /* BookNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C683F0280817F200D6463C /* BookNavigationController.swift */; };
+		07C683F328081A8F00D6463C /* BookOpeningTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C683F228081A8F00D6463C /* BookOpeningTransition.swift */; };
+		07C683F62808259A00D6463C /* CATransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C683F52808259A00D6463C /* CATransitionViewController.swift */; };
 		07DCCA5F27F491AF000B0F5E /* Flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCCA5E27F491AF000B0F5E /* Flow.swift */; };
 		07DCCA6127F491F7000B0F5E /* MainContentFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCCA6027F491F7000B0F5E /* MainContentFlow.swift */; };
 		07DCCA6327F4949B000B0F5E /* MainContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCCA6227F4949B000B0F5E /* MainContentViewController.swift */; };
@@ -83,6 +99,22 @@
 		07B8225027F34D79005B8EB3 /* BuildFormChapter2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildFormChapter2.swift; sourceTree = "<group>"; };
 		07C683C72807BFA400D6463C /* AppTweaks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTweaks.swift; sourceTree = "<group>"; };
 		07C683C92807C1A300D6463C /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		07C683CB2807C8CA00D6463C /* JournalContentFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalContentFlow.swift; sourceTree = "<group>"; };
+		07C683CE2807C96F00D6463C /* JournalContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalContentViewController.swift; sourceTree = "<group>"; };
+		07C683D22807CAFA00D6463C /* JournalPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalPageViewController.swift; sourceTree = "<group>"; };
+		07C683D72807FCA500D6463C /* BookCoverCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCoverCell.swift; sourceTree = "<group>"; };
+		07C683D82807FCA500D6463C /* BooksLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksLayout.swift; sourceTree = "<group>"; };
+		07C683D92807FCA500D6463C /* BooksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		07C683DA2807FCA500D6463C /* BookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		07C683DB2807FCA500D6463C /* BookPageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookPageCell.swift; sourceTree = "<group>"; };
+		07C683DC2807FCA500D6463C /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		07C683DD2807FCA500D6463C /* Books.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Books.plist; sourceTree = "<group>"; };
+		07C683DE2807FCA500D6463C /* BookStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookStore.swift; sourceTree = "<group>"; };
+		07C683DF2807FCA500D6463C /* BookLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookLayout.swift; sourceTree = "<group>"; };
+		07C683E92807FCB100D6463C /* UIImage+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Helpers.swift"; sourceTree = "<group>"; };
+		07C683F0280817F200D6463C /* BookNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookNavigationController.swift; sourceTree = "<group>"; };
+		07C683F228081A8F00D6463C /* BookOpeningTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookOpeningTransition.swift; sourceTree = "<group>"; };
+		07C683F52808259A00D6463C /* CATransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATransitionViewController.swift; sourceTree = "<group>"; };
 		07DCCA5E27F491AF000B0F5E /* Flow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flow.swift; sourceTree = "<group>"; };
 		07DCCA6027F491F7000B0F5E /* MainContentFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentFlow.swift; sourceTree = "<group>"; };
 		07DCCA6227F4949B000B0F5E /* MainContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentViewController.swift; sourceTree = "<group>"; };
@@ -139,7 +171,7 @@
 				07DCCA6727F4A57F000B0F5E /* Tools */,
 				07DCCA6627F4A30F000B0F5E /* App */,
 				07DCCA5D27F49196000B0F5E /* didiCoordinator */,
-				07B820B127F340D9005B8EB3 /* Coordinator */,
+				07B820B127F340D9005B8EB3 /* --Coordinator */,
 			);
 			path = Monitor;
 			sourceTree = "<group>";
@@ -147,6 +179,7 @@
 		0721689927F5AA9500FE1021 /* Dig */ = {
 			isa = PBXGroup;
 			children = (
+				07C683CD2807C95A00D6463C /* Journey */,
 				0739A2B027F8030100E7B4A2 /* Functional */,
 				0721689A27F5EC6A00FE1021 /* OpenGL */,
 				07DCCA6C27F4A7D5000B0F5E /* CoreGraphic */,
@@ -194,13 +227,13 @@
 			path = extensions;
 			sourceTree = "<group>";
 		};
-		07B820B127F340D9005B8EB3 /* Coordinator */ = {
+		07B820B127F340D9005B8EB3 /* --Coordinator */ = {
 			isa = PBXGroup;
 			children = (
 				07B820B227F340EB005B8EB3 /* BuildFormCoordinator.swift */,
 				077F18CB27F3592100709CBA /* AppCoordinator.swift */,
 			);
-			path = Coordinator;
+			path = "--Coordinator";
 			sourceTree = "<group>";
 		};
 		07B8224B27F34A57005B8EB3 /* BuildForm */ = {
@@ -219,6 +252,68 @@
 			path = BuildForm;
 			sourceTree = "<group>";
 		};
+		07C683CD2807C95A00D6463C /* Journey */ = {
+			isa = PBXGroup;
+			children = (
+				07C683F42808258D00D6463C /* Animation */,
+				07C683D42807D2AD00D6463C /* Book Animation */,
+				07C683D92807FCA500D6463C /* BooksViewController.swift */,
+				07C683CE2807C96F00D6463C /* JournalContentViewController.swift */,
+				07C683D22807CAFA00D6463C /* JournalPageViewController.swift */,
+			);
+			path = Journey;
+			sourceTree = "<group>";
+		};
+		07C683D42807D2AD00D6463C /* Book Animation */ = {
+			isa = PBXGroup;
+			children = (
+				07C683ED2807FD4700D6463C /* Page */,
+				07C683EC2807FD3A00D6463C /* Books */,
+				07C683EB2807FD2D00D6463C /* Model */,
+				07C683F0280817F200D6463C /* BookNavigationController.swift */,
+				07C683F228081A8F00D6463C /* BookOpeningTransition.swift */,
+			);
+			path = "Book Animation";
+			sourceTree = "<group>";
+		};
+		07C683EB2807FD2D00D6463C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				07C683E92807FCB100D6463C /* UIImage+Helpers.swift */,
+				07C683DC2807FCA500D6463C /* Book.swift */,
+				07C683DD2807FCA500D6463C /* Books.plist */,
+				07C683DE2807FCA500D6463C /* BookStore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		07C683EC2807FD3A00D6463C /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				07C683D72807FCA500D6463C /* BookCoverCell.swift */,
+				07C683D82807FCA500D6463C /* BooksLayout.swift */,
+			);
+			path = Books;
+			sourceTree = "<group>";
+		};
+		07C683ED2807FD4700D6463C /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				07C683DF2807FCA500D6463C /* BookLayout.swift */,
+				07C683DB2807FCA500D6463C /* BookPageCell.swift */,
+				07C683DA2807FCA500D6463C /* BookViewController.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		07C683F42808258D00D6463C /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				07C683F52808259A00D6463C /* CATransitionViewController.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		07DCCA5D27F49196000B0F5E /* didiCoordinator */ = {
 			isa = PBXGroup;
 			children = (
@@ -227,6 +322,7 @@
 				07DCCA6427F49AC0000B0F5E /* BuildFormFlow.swift */,
 				07DCCA6A27F4A6A5000B0F5E /* CoreGraphicFlow.swift */,
 				0739A2AE27F8002600E7B4A2 /* FunctionalProgramFlow.swift */,
+				07C683CB2807C8CA00D6463C /* JournalContentFlow.swift */,
 			);
 			path = didiCoordinator;
 			sourceTree = "<group>";
@@ -353,6 +449,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07C683E62807FCA500D6463C /* Books.plist in Resources */,
 				0715717D27F33CAE008259C9 /* LaunchScreen.storyboard in Resources */,
 				0715717A27F33CAE008259C9 /* Assets.xcassets in Resources */,
 			);
@@ -409,17 +506,24 @@
 			files = (
 				07B8225127F34D79005B8EB3 /* BuildFormChapter2.swift in Sources */,
 				074704E52806B1C3007BEA46 /* CGPath+extension.swift in Sources */,
+				07C683E52807FCA500D6463C /* Book.swift in Sources */,
+				07C683E12807FCA500D6463C /* BooksLayout.swift in Sources */,
 				0739A2AF27F8002600E7B4A2 /* FunctionalProgramFlow.swift in Sources */,
 				07C683CA2807C1A300D6463C /* Toast.swift in Sources */,
 				077F18C427F3533800709CBA /* BuildFormChapter4.swift in Sources */,
 				07DCCA7827F4AC42000B0F5E /* Stacks.swift in Sources */,
 				07DCCA6327F4949B000B0F5E /* MainContentViewController.swift in Sources */,
 				077F18C127F34FBA00709CBA /* BuildFormChapter3.swift in Sources */,
+				07C683F62808259A00D6463C /* CATransitionViewController.swift in Sources */,
 				07DCCA6E27F4A7F6000B0F5E /* CoreGraphicContentViewController.swift in Sources */,
 				074704F7280723CE007BEA46 /* CoreGraphicRectView.swift in Sources */,
+				07C683F328081A8F00D6463C /* BookOpeningTransition.swift in Sources */,
 				0704C73127F8247A0009FAD3 /* BattleShip.swift in Sources */,
 				07DCCA7427F4A990000B0F5E /* GlossyButtonViewController.swift in Sources */,
+				07C683F1280817F200D6463C /* BookNavigationController.swift in Sources */,
+				07C683EA2807FCB100D6463C /* UIImage+Helpers.swift in Sources */,
 				07B8224D27F34AD2005B8EB3 /* BuildFormChapter0.swift in Sources */,
+				07C683E82807FCA500D6463C /* BookLayout.swift in Sources */,
 				077F18C727F353EB00709CBA /* BuildFormChapter5.swift in Sources */,
 				0739A2B227F8032D00E7B4A2 /* FunctionalProgramContentViewController.swift in Sources */,
 				07DCCA6927F4A599000B0F5E /* StackBuilder.swift in Sources */,
@@ -427,22 +531,30 @@
 				0704C73327F8357F0009FAD3 /* Map,Filter,Reduce.swift in Sources */,
 				07F1481827F6F3FD00D5B611 /* Curry.swift in Sources */,
 				07A2940F2806AD0800CFFF03 /* CGContext+extensions.swift in Sources */,
+				07C683E32807FCA500D6463C /* BookViewController.swift in Sources */,
 				0715717527F33CAE008259C9 /* BuildingFormContentViewController.swift in Sources */,
 				07DCCA6127F491F7000B0F5E /* MainContentFlow.swift in Sources */,
+				07C683D32807CAFA00D6463C /* JournalPageViewController.swift in Sources */,
 				07A2940D2806A03D00CFFF03 /* UIColor+extensions.swift in Sources */,
 				07DCCA6527F49AC0000B0F5E /* BuildFormFlow.swift in Sources */,
 				07A29408280677E300CFFF03 /* BorderGradientButtonViewController.swift in Sources */,
+				07C683E02807FCA500D6463C /* BookCoverCell.swift in Sources */,
 				07A2940A280681C500CFFF03 /* PathGradientButton.swift in Sources */,
 				074704F028071D6E007BEA46 /* CoreGraphicDemosViewController.swift in Sources */,
 				07DCCA7527F4A990000B0F5E /* UIView+createRoundedRect.swift in Sources */,
 				0715717127F33CAE008259C9 /* AppDelegate.swift in Sources */,
 				07B8224F27F34C72005B8EB3 /* BuildFormChapter1.swift in Sources */,
 				07DCCA5F27F491AF000B0F5E /* Flow.swift in Sources */,
+				07C683E72807FCA500D6463C /* BookStore.swift in Sources */,
+				07C683E42807FCA500D6463C /* BookPageCell.swift in Sources */,
+				07C683CF2807C96F00D6463C /* JournalContentViewController.swift in Sources */,
 				07DCCA7327F4A990000B0F5E /* CoolButton.swift in Sources */,
 				077F18C827F353EB00709CBA /* BuildFormChapter6.swift in Sources */,
 				077F18CA27F357E300709CBA /* BuildFormChapter7.swift in Sources */,
 				074704F328071DF0007BEA46 /* CoreGraphicTextView.swift in Sources */,
+				07C683CC2807C8CA00D6463C /* JournalContentFlow.swift in Sources */,
 				07DCCA6B27F4A6A5000B0F5E /* CoreGraphicFlow.swift in Sources */,
+				07C683E22807FCA500D6463C /* BooksViewController.swift in Sources */,
 				07C683C82807BFA400D6463C /* AppTweaks.swift in Sources */,
 				0704C73527F856D00009FAD3 /* EnumStructFunctional.swift in Sources */,
 			);
@@ -592,7 +704,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -622,7 +734,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

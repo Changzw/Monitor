@@ -1,17 +1,16 @@
 //
-//  FunctionalProgramContentViewController.swift
+//  JournalCollectionViewController.swift
 //  Monitor
 //
-//  Created by Fri on 2022/3/30.
+//  Created by Fri on 2022/4/14.
 //
 
 import UIKit
 
-final class FunctionalProgramContentViewController: UITableViewController {
-  private let items = FunctionProgramContentBranch.allContents
-  private weak var flow: FunctionProgramContentFlow?
-  
-  init(flow: FunctionProgramContentFlow) {
+final class JournalContentViewController: UITableViewController {
+  private weak var flow: JournalContentFlow?
+  private let items = JournalBranch.allContents
+  init(flow: JournalContentFlow) {
     self.flow = flow
     super.init(nibName: nil, bundle: nil)
   }
@@ -22,7 +21,7 @@ final class FunctionalProgramContentViewController: UITableViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    title = "FunctionProgram"
+    title = "Journal"
     tableView.register(UITableViewCell.self, forCellReuseIdentifier: UITableViewCell.description())
   }
   
@@ -41,4 +40,3 @@ final class FunctionalProgramContentViewController: UITableViewController {
     return c
   }
 }
-
