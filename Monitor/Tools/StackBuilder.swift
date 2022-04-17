@@ -158,6 +158,8 @@ protocol ViewModifier {
   func box(offset: CGFloat) -> View
   func width(_ width: SpacerValue) -> View
   func height(_ height: SpacerValue) -> View
+  func square(_ edge: SpacerValue) -> View
+  func size(_ width: SpacerValue, _ height: SpacerValue) -> View
   func cornerRadius(_ cornerRadius: CGFloat) -> View
   func backgroundColor(_ backgroundColor: UIColor) -> View
 }
@@ -199,6 +201,14 @@ extension UIView: ViewModifier {
     constraint.priority = UILayoutPriority(999)
     constraint.isActive = true
     return self
+  }
+  
+  func square(_ edge: SpacerValue) -> UIView {
+    size(edge, edge)
+  }
+  
+  func size(_ width: SpacerValue, _ height: SpacerValue) -> UIView {
+    self.width(width).height(height)
   }
   
   @discardableResult

@@ -13,6 +13,7 @@ enum CoreGraphicBranch: Branch, CaseIterable {
   case glossyButton
   case borderGradientButton
   case coreGraphicDemos
+  case flipPage
   
   static var allContents: [CoreGraphicBranch] {
     Array(CoreGraphicBranch.allCases[1...])
@@ -42,6 +43,8 @@ final class CoreGraphicFlow: Flow {
       navigationViewController?.pushViewController(BorderGradientButtonViewController(), animated: true)
     case .coreGraphicDemos:
       navigationViewController?.pushViewController(CoreGraphicDemosViewController(), animated: true)
+    case .flipPage:
+      navigationViewController?.pushViewController(FlipPageViewController(), animated: true)
     }
   }
 }

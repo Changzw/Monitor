@@ -26,6 +26,9 @@
 		077F18C727F353EB00709CBA /* BuildFormChapter5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077F18C527F353EB00709CBA /* BuildFormChapter5.swift */; };
 		077F18C827F353EB00709CBA /* BuildFormChapter6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077F18C627F353EB00709CBA /* BuildFormChapter6.swift */; };
 		077F18CA27F357E300709CBA /* BuildFormChapter7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077F18C927F357E300709CBA /* BuildFormChapter7.swift */; };
+		0785FB04280B216400AA8D3B /* WaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0785FB03280B216400AA8D3B /* WaveViewController.swift */; };
+		0785FB06280B23EE00AA8D3B /* FlipPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0785FB05280B23EE00AA8D3B /* FlipPageViewController.swift */; };
+		0785FB08280C7A6B00AA8D3B /* CoreGraphicCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0785FB07280C7A6B00AA8D3B /* CoreGraphicCircle.swift */; };
 		07A29408280677E300CFFF03 /* BorderGradientButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A29407280677E300CFFF03 /* BorderGradientButtonViewController.swift */; };
 		07A2940A280681C500CFFF03 /* PathGradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A29409280681C500CFFF03 /* PathGradientButton.swift */; };
 		07A2940D2806A03D00CFFF03 /* UIColor+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A2940C2806A03D00CFFF03 /* UIColor+extensions.swift */; };
@@ -89,6 +92,9 @@
 		077F18C627F353EB00709CBA /* BuildFormChapter6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildFormChapter6.swift; sourceTree = "<group>"; };
 		077F18C927F357E300709CBA /* BuildFormChapter7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildFormChapter7.swift; sourceTree = "<group>"; };
 		077F18CB27F3592100709CBA /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		0785FB03280B216400AA8D3B /* WaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveViewController.swift; sourceTree = "<group>"; };
+		0785FB05280B23EE00AA8D3B /* FlipPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipPageViewController.swift; sourceTree = "<group>"; };
+		0785FB07280C7A6B00AA8D3B /* CoreGraphicCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphicCircle.swift; sourceTree = "<group>"; };
 		07A29407280677E300CFFF03 /* BorderGradientButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderGradientButtonViewController.swift; sourceTree = "<group>"; };
 		07A29409280681C500CFFF03 /* PathGradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathGradientButton.swift; sourceTree = "<group>"; };
 		07A2940C2806A03D00CFFF03 /* UIColor+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+extensions.swift"; sourceTree = "<group>"; };
@@ -213,6 +219,7 @@
 				074704F228071DF0007BEA46 /* CoreGraphicTextView.swift */,
 				074704F428072173007BEA46 /* CoreGraphicLineView.swift */,
 				074704F6280723CE007BEA46 /* CoreGraphicRectView.swift */,
+				0785FB07280C7A6B00AA8D3B /* CoreGraphicCircle.swift */,
 			);
 			path = CoreGrahpicDemos;
 			sourceTree = "<group>";
@@ -360,6 +367,8 @@
 				07DCCA7127F4A990000B0F5E /* UIView+createRoundedRect.swift */,
 				07A29407280677E300CFFF03 /* BorderGradientButtonViewController.swift */,
 				07A29409280681C500CFFF03 /* PathGradientButton.swift */,
+				0785FB03280B216400AA8D3B /* WaveViewController.swift */,
+				0785FB05280B23EE00AA8D3B /* FlipPageViewController.swift */,
 			);
 			path = CoreGraphic;
 			sourceTree = "<group>";
@@ -516,6 +525,7 @@
 				077F18C127F34FBA00709CBA /* BuildFormChapter3.swift in Sources */,
 				07C683F62808259A00D6463C /* CATransitionViewController.swift in Sources */,
 				07DCCA6E27F4A7F6000B0F5E /* CoreGraphicContentViewController.swift in Sources */,
+				0785FB06280B23EE00AA8D3B /* FlipPageViewController.swift in Sources */,
 				074704F7280723CE007BEA46 /* CoreGraphicRectView.swift in Sources */,
 				07C683F328081A8F00D6463C /* BookOpeningTransition.swift in Sources */,
 				0704C73127F8247A0009FAD3 /* BattleShip.swift in Sources */,
@@ -527,8 +537,10 @@
 				077F18C727F353EB00709CBA /* BuildFormChapter5.swift in Sources */,
 				0739A2B227F8032D00E7B4A2 /* FunctionalProgramContentViewController.swift in Sources */,
 				07DCCA6927F4A599000B0F5E /* StackBuilder.swift in Sources */,
+				0785FB04280B216400AA8D3B /* WaveViewController.swift in Sources */,
 				074704F528072173007BEA46 /* CoreGraphicLineView.swift in Sources */,
 				0704C73327F8357F0009FAD3 /* Map,Filter,Reduce.swift in Sources */,
+				0785FB08280C7A6B00AA8D3B /* CoreGraphicCircle.swift in Sources */,
 				07F1481827F6F3FD00D5B611 /* Curry.swift in Sources */,
 				07A2940F2806AD0800CFFF03 /* CGContext+extensions.swift in Sources */,
 				07C683E32807FCA500D6463C /* BookViewController.swift in Sources */,

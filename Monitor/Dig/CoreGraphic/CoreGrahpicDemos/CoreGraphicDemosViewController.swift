@@ -13,6 +13,7 @@ final class CoreGraphicDemosViewController: UIViewController {
   let textView = CoreGraphicTextView()
   let lineView = CoreGraphicLineView()
   let rectView = CoreGraphicRectView()
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     view.backgroundColor = .white
@@ -29,6 +30,20 @@ final class CoreGraphicDemosViewController: UIViewController {
       .distribution(.fillEqually)
       .alignment(.fill)
       rectView.height(.point(100))
+      
+      VStack {
+        HStack {
+          CoreGraphicCircle1().square(.point(100))
+          CoreGraphicCircle2().square(.point(100))
+        }
+        .distribution(.equalSpacing)
+        HStack {
+          CoreGraphicCircle3().square(.point(100))
+          CoreGraphicCircle4().square(.point(100))
+        }
+        .distribution(.equalCentering)
+      }
+      .distribution(.fillEqually)
     }
       .spacing(5)
       .alignment(.fill)
