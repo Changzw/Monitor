@@ -147,11 +147,6 @@ extension HStack: StackModifier {
   }
 }
 
-//public typealias SpacerRelation = NSLayoutConstraint.Relation
-//public enum SpacerValue {
-//  case point(_ value: CGFloat, _ relation: SpacerRelation = .equal)
-//  case fraction(_ value: CGFloat, _ relation: SpacerRelation = .equal)
-//}
 
 protocol ViewModifier {
   associatedtype View: UIView

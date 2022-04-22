@@ -20,6 +20,7 @@ target 'Monitor' do
   pod 'XCoordinator'#,  :binary=>true
   pod 'Then'
   pod 'Toast-Swift'
+  pod 'PixelSDK-GPUImage3'
   
   pod 'LookinServer', :configurations => ['Debug'] #UI调试工具：https://lookin.work
   pod 'FLEX', :configurations => ['Debug']

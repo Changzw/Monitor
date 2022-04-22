@@ -6,6 +6,7 @@ PODS:
   - LookinServer (1.0.5)
   - "NSObject+Rx (5.2.2)":
     - RxSwift (~> 6.2)
+  - PixelSDK-GPUImage3 (3.1.1)
   - RxCocoa (6.5.0):
     - RxRelay (= 6.5.0)
     - RxSwift (= 6.5.0)
@@ -25,6 +26,7 @@ DEPENDENCIES:
   - FLEX
   - LookinServer
   - "NSObject+Rx"
+  - PixelSDK-GPUImage3
   - RxCocoa
   - RxSwift
   - SnapKit
@@ -39,6 +41,7 @@ SPEC REPOS:
     - FLEX
     - LookinServer
     - "NSObject+Rx"
+    - PixelSDK-GPUImage3
     - RxCocoa
     - RxRelay
     - RxSwift
@@ -53,6 +56,7 @@ SPEC CHECKSUMS:
   FLEX: bbc55d197f87d7cde2454c3981aa47069b694144
   LookinServer: 3d9a02529ed94a6a08154440c26f6d7f453bb1e7
   "NSObject+Rx": 61cf1f7306a73dcef8b36649198af0813ec18dfd
+  PixelSDK-GPUImage3: 6a66cfca487b57219e557a6a31b21d5bd6480bea
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
@@ -62,6 +66,6 @@ SPEC CHECKSUMS:
   Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
   XCoordinator: 9ee654fedef1ffede33d5c11677708a555c00542
 
-PODFILE CHECKSUM: 39855810df36b835ea6623a6579eb99803a0f064
+PODFILE CHECKSUM: 8bcf7e7130ad2e7b177a83ce733714b79287104b
 
 COCOAPODS: 1.10.1

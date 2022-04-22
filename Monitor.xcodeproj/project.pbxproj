@@ -10,6 +10,8 @@
 		0704C73127F8247A0009FAD3 /* BattleShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0704C73027F8247A0009FAD3 /* BattleShip.swift */; };
 		0704C73327F8357F0009FAD3 /* Map,Filter,Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0704C73227F8357F0009FAD3 /* Map,Filter,Reduce.swift */; };
 		0704C73527F856D00009FAD3 /* EnumStructFunctional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0704C73427F856D00009FAD3 /* EnumStructFunctional.swift */; };
+		070D0EA02812AE2F00F01E31 /* CoreImageContentFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070D0E9F2812AE2F00F01E31 /* CoreImageContentFlow.swift */; };
+		070D0EA22812AE9800F01E31 /* CoreImageContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070D0EA12812AE9800F01E31 /* CoreImageContentViewController.swift */; };
 		0715717127F33CAE008259C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0715717027F33CAE008259C9 /* AppDelegate.swift */; };
 		0715717527F33CAE008259C9 /* BuildingFormContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0715717427F33CAE008259C9 /* BuildingFormContentViewController.swift */; };
 		0715717A27F33CAE008259C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0715717927F33CAE008259C9 /* Assets.xcassets */; };
@@ -65,6 +67,9 @@
 		07DCCA7427F4A990000B0F5E /* GlossyButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCCA7027F4A990000B0F5E /* GlossyButtonViewController.swift */; };
 		07DCCA7527F4A990000B0F5E /* UIView+createRoundedRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCCA7127F4A990000B0F5E /* UIView+createRoundedRect.swift */; };
 		07DCCA7827F4AC42000B0F5E /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCCA7727F4AC42000B0F5E /* Stacks.swift */; };
+		07E97C062811C17800B10B43 /* RxSwiftContentFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E97C052811C17800B10B43 /* RxSwiftContentFlow.swift */; };
+		07E97C082811C20800B10B43 /* RxSwiftContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E97C072811C20800B10B43 /* RxSwiftContentViewController.swift */; };
+		07E97C0A2811C42D00B10B43 /* RxSubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E97C092811C42D00B10B43 /* RxSubjectViewController.swift */; };
 		07F1481827F6F3FD00D5B611 /* Curry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F1481727F6F3FD00D5B611 /* Curry.swift */; };
 		C6627CC1092A0A52BA632D55 /* Pods_Monitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB02687FDF6982F5E90A9BD /* Pods_Monitor.framework */; };
 /* End PBXBuildFile section */
@@ -73,6 +78,8 @@
 		0704C73027F8247A0009FAD3 /* BattleShip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleShip.swift; sourceTree = "<group>"; };
 		0704C73227F8357F0009FAD3 /* Map,Filter,Reduce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Map,Filter,Reduce.swift"; sourceTree = "<group>"; };
 		0704C73427F856D00009FAD3 /* EnumStructFunctional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumStructFunctional.swift; sourceTree = "<group>"; };
+		070D0E9F2812AE2F00F01E31 /* CoreImageContentFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImageContentFlow.swift; sourceTree = "<group>"; };
+		070D0EA12812AE9800F01E31 /* CoreImageContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreImageContentViewController.swift; sourceTree = "<group>"; };
 		0715716D27F33CAE008259C9 /* Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0715717027F33CAE008259C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0715717427F33CAE008259C9 /* BuildingFormContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingFormContentViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +139,9 @@
 		07DCCA7027F4A990000B0F5E /* GlossyButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossyButtonViewController.swift; sourceTree = "<group>"; };
 		07DCCA7127F4A990000B0F5E /* UIView+createRoundedRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+createRoundedRect.swift"; sourceTree = "<group>"; };
 		07DCCA7727F4AC42000B0F5E /* Stacks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stacks.swift; sourceTree = "<group>"; };
+		07E97C052811C17800B10B43 /* RxSwiftContentFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftContentFlow.swift; sourceTree = "<group>"; };
+		07E97C072811C20800B10B43 /* RxSwiftContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxSwiftContentViewController.swift; sourceTree = "<group>"; };
+		07E97C092811C42D00B10B43 /* RxSubjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSubjectViewController.swift; sourceTree = "<group>"; };
 		07F1481727F6F3FD00D5B611 /* Curry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curry.swift; sourceTree = "<group>"; };
 		253C923C1D72B27C4B01B383 /* Pods-Monitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Monitor.release.xcconfig"; path = "Target Support Files/Pods-Monitor/Pods-Monitor.release.xcconfig"; sourceTree = "<group>"; };
 		7AB02687FDF6982F5E90A9BD /* Pods_Monitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Monitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,6 +160,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		070D0E9E2812AE1A00F01E31 /* CoreImage&Filter */ = {
+			isa = PBXGroup;
+			children = (
+				070D0E9F2812AE2F00F01E31 /* CoreImageContentFlow.swift */,
+				070D0EA12812AE9800F01E31 /* CoreImageContentViewController.swift */,
+			);
+			path = "CoreImage&Filter";
+			sourceTree = "<group>";
+		};
 		0715716427F33CAE008259C9 = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +204,8 @@
 		0721689927F5AA9500FE1021 /* Dig */ = {
 			isa = PBXGroup;
 			children = (
+				070D0E9E2812AE1A00F01E31 /* CoreImage&Filter */,
+				07E97C042811C16300B10B43 /* RxSwift */,
 				07C683CD2807C95A00D6463C /* Journey */,
 				0739A2B027F8030100E7B4A2 /* Functional */,
 				0721689A27F5EC6A00FE1021 /* OpenGL */,
@@ -373,6 +394,16 @@
 			path = CoreGraphic;
 			sourceTree = "<group>";
 		};
+		07E97C042811C16300B10B43 /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				07E97C052811C17800B10B43 /* RxSwiftContentFlow.swift */,
+				07E97C072811C20800B10B43 /* RxSwiftContentViewController.swift */,
+				07E97C092811C42D00B10B43 /* RxSubjectViewController.swift */,
+			);
+			path = RxSwift;
+			sourceTree = "<group>";
+		};
 		07F1481627F6F3ED00D5B611 /* Swift language */ = {
 			isa = PBXGroup;
 			children = (
@@ -533,6 +564,7 @@
 				07C683F1280817F200D6463C /* BookNavigationController.swift in Sources */,
 				07C683EA2807FCB100D6463C /* UIImage+Helpers.swift in Sources */,
 				07B8224D27F34AD2005B8EB3 /* BuildFormChapter0.swift in Sources */,
+				070D0EA02812AE2F00F01E31 /* CoreImageContentFlow.swift in Sources */,
 				07C683E82807FCA500D6463C /* BookLayout.swift in Sources */,
 				077F18C727F353EB00709CBA /* BuildFormChapter5.swift in Sources */,
 				0739A2B227F8032D00E7B4A2 /* FunctionalProgramContentViewController.swift in Sources */,
@@ -541,16 +573,19 @@
 				074704F528072173007BEA46 /* CoreGraphicLineView.swift in Sources */,
 				0704C73327F8357F0009FAD3 /* Map,Filter,Reduce.swift in Sources */,
 				0785FB08280C7A6B00AA8D3B /* CoreGraphicCircle.swift in Sources */,
+				07E97C0A2811C42D00B10B43 /* RxSubjectViewController.swift in Sources */,
 				07F1481827F6F3FD00D5B611 /* Curry.swift in Sources */,
 				07A2940F2806AD0800CFFF03 /* CGContext+extensions.swift in Sources */,
 				07C683E32807FCA500D6463C /* BookViewController.swift in Sources */,
 				0715717527F33CAE008259C9 /* BuildingFormContentViewController.swift in Sources */,
+				070D0EA22812AE9800F01E31 /* CoreImageContentViewController.swift in Sources */,
 				07DCCA6127F491F7000B0F5E /* MainContentFlow.swift in Sources */,
 				07C683D32807CAFA00D6463C /* JournalPageViewController.swift in Sources */,
 				07A2940D2806A03D00CFFF03 /* UIColor+extensions.swift in Sources */,
 				07DCCA6527F49AC0000B0F5E /* BuildFormFlow.swift in Sources */,
 				07A29408280677E300CFFF03 /* BorderGradientButtonViewController.swift in Sources */,
 				07C683E02807FCA500D6463C /* BookCoverCell.swift in Sources */,
+				07E97C082811C20800B10B43 /* RxSwiftContentViewController.swift in Sources */,
 				07A2940A280681C500CFFF03 /* PathGradientButton.swift in Sources */,
 				074704F028071D6E007BEA46 /* CoreGraphicDemosViewController.swift in Sources */,
 				07DCCA7527F4A990000B0F5E /* UIView+createRoundedRect.swift in Sources */,
@@ -558,6 +593,7 @@
 				07B8224F27F34C72005B8EB3 /* BuildFormChapter1.swift in Sources */,
 				07DCCA5F27F491AF000B0F5E /* Flow.swift in Sources */,
 				07C683E72807FCA500D6463C /* BookStore.swift in Sources */,
+				07E97C062811C17800B10B43 /* RxSwiftContentFlow.swift in Sources */,
 				07C683E42807FCA500D6463C /* BookPageCell.swift in Sources */,
 				07C683CF2807C96F00D6463C /* JournalContentViewController.swift in Sources */,
 				07DCCA7327F4A990000B0F5E /* CoolButton.swift in Sources */,

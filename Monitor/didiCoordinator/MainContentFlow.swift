@@ -18,6 +18,8 @@ enum MainContentBranch: Branch, CaseIterable {
   case coreGraphic
   case functional
   case journal
+  case rxSwift
+  case coreImage
   
   static var allContents: [MainContentBranch] {
     Array(MainContentBranch.allCases[1...])
@@ -36,6 +38,8 @@ final class MainContentFlow: Flow {
   private let coreGraphicFlow: CoreGraphicFlow
   private let functionalProgramFlow: FunctionProgramContentFlow
   private let journalFlow: JournalContentFlow
+  private let rxSwiftFlow: RxSwiftContentFlow
+  private let coreImageFlow: CoreImageContentFlow
   
   init(rootViewController: UIViewController) {
     self.rootViewController = rootViewController
@@ -43,6 +47,8 @@ final class MainContentFlow: Flow {
     coreGraphicFlow = CoreGraphicFlow(rootViewController: rootViewController)
     functionalProgramFlow = FunctionProgramContentFlow(rootViewController: rootViewController)
     journalFlow = JournalContentFlow(rootViewController: rootViewController)
+    rxSwiftFlow = RxSwiftContentFlow(rootViewController: rootViewController)
+    coreImageFlow = CoreImageContentFlow(rootViewController: rootViewController)
   }
   
   func direct(to branch: MainContentBranch) {
@@ -57,6 +63,10 @@ final class MainContentFlow: Flow {
       navigationViewController?.pushViewController(FunctionalProgramContentViewController(flow: functionalProgramFlow), animated: true)
     case .journal:
       navigationViewController?.pushViewController(JournalContentViewController(flow: journalFlow), animated: true)
+    case .rxSwift:
+      navigationViewController?.pushViewController(RxSwiftContentViewController(flow: rxSwiftFlow), animated: true)
+    case .coreImage:
+      navigationViewController?.pushViewController(CoreImageContentViewController(flow: coreImageFlow), animated: true)
     }
   }
 }
