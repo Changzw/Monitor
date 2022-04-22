@@ -9,8 +9,8 @@ import UIKit
 
 enum CoreImageContentBranch: Branch, CaseIterable {
   case content
-  case subject
-  case chapter1
+  case first
+  case ApplyRect
   case chapter2
   case chapter3
   case chapter4
@@ -40,9 +40,11 @@ final class CoreImageContentFlow: Flow {
     switch branch {
     case .content:
       break
-    case .subject:
+    case .first:
+      navigationViewController?.pushViewController(CoreImageFirstViewController(), animated: true)
       break
-    case .chapter1:
+    case .ApplyRect:
+      navigationViewController?.pushViewController(CoreImageApplyRectViewController(), animated: true)
       break
     case .chapter2:
       break
