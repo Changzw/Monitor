@@ -18,7 +18,7 @@ class CoreImageApplyRectViewController: UIViewController {
       iconView
       iconFilterView
     }
-      .spacing(10)
+      .spacing(20)
       .distribution(.fillEqually)
       .alignment(.fill)
     
@@ -34,7 +34,7 @@ class CoreImageApplyRectViewController: UIViewController {
     
     var f = cgImage.extent
     f.origin.y = f.midY
-    iconFilterView.image = img.applyBlurInRect(rect: CGRect(x: 10, y: 10, width: 100, height: 100), withRadius: 10)
+    iconFilterView.image = img.applyBlurInRect(rect: CGRect(x: 0, y: 0, width: 100, height: 100), withRadius: 3)
   }
 }
 

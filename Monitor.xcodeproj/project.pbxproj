@@ -14,6 +14,8 @@
 		070D0EA22812AE9800F01E31 /* CoreImageContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070D0EA12812AE9800F01E31 /* CoreImageContentViewController.swift */; };
 		070D0EA72812EE9400F01E31 /* CoreImageFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070D0EA62812EE9400F01E31 /* CoreImageFirstViewController.swift */; };
 		070D0EA92812FDCC00F01E31 /* CoreImageApplyRectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070D0EA82812FDCC00F01E31 /* CoreImageApplyRectViewController.swift */; };
+		070D0EAC28130C9E00F01E31 /* ViewContentFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070D0EAB28130C9E00F01E31 /* ViewContentFlow.swift */; };
+		070D0EAE28130CD600F01E31 /* ViewsContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070D0EAD28130CD600F01E31 /* ViewsContentViewController.swift */; };
 		0715717127F33CAE008259C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0715717027F33CAE008259C9 /* AppDelegate.swift */; };
 		0715717527F33CAE008259C9 /* BuildingFormContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0715717427F33CAE008259C9 /* BuildingFormContentViewController.swift */; };
 		0715717A27F33CAE008259C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0715717927F33CAE008259C9 /* Assets.xcassets */; };
@@ -84,6 +86,8 @@
 		070D0EA12812AE9800F01E31 /* CoreImageContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreImageContentViewController.swift; sourceTree = "<group>"; };
 		070D0EA62812EE9400F01E31 /* CoreImageFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImageFirstViewController.swift; sourceTree = "<group>"; };
 		070D0EA82812FDCC00F01E31 /* CoreImageApplyRectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImageApplyRectViewController.swift; sourceTree = "<group>"; };
+		070D0EAB28130C9E00F01E31 /* ViewContentFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewContentFlow.swift; sourceTree = "<group>"; };
+		070D0EAD28130CD600F01E31 /* ViewsContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsContentViewController.swift; sourceTree = "<group>"; };
 		0715716D27F33CAE008259C9 /* Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0715717027F33CAE008259C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0715717427F33CAE008259C9 /* BuildingFormContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingFormContentViewController.swift; sourceTree = "<group>"; };
@@ -175,6 +179,15 @@
 			path = "CoreImage&Filter";
 			sourceTree = "<group>";
 		};
+		070D0EAA28130C8D00F01E31 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				070D0EAB28130C9E00F01E31 /* ViewContentFlow.swift */,
+				070D0EAD28130CD600F01E31 /* ViewsContentViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		0715716427F33CAE008259C9 = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +223,7 @@
 		0721689927F5AA9500FE1021 /* Dig */ = {
 			isa = PBXGroup;
 			children = (
+				070D0EAA28130C8D00F01E31 /* View */,
 				070D0E9E2812AE1A00F01E31 /* CoreImage&Filter */,
 				07E97C042811C16300B10B43 /* RxSwift */,
 				07C683CD2807C95A00D6463C /* Journey */,
@@ -598,6 +612,7 @@
 				074704F028071D6E007BEA46 /* CoreGraphicDemosViewController.swift in Sources */,
 				07DCCA7527F4A990000B0F5E /* UIView+createRoundedRect.swift in Sources */,
 				0715717127F33CAE008259C9 /* AppDelegate.swift in Sources */,
+				070D0EAE28130CD600F01E31 /* ViewsContentViewController.swift in Sources */,
 				07B8224F27F34C72005B8EB3 /* BuildFormChapter1.swift in Sources */,
 				07DCCA5F27F491AF000B0F5E /* Flow.swift in Sources */,
 				07C683E72807FCA500D6463C /* BookStore.swift in Sources */,
@@ -612,6 +627,7 @@
 				07DCCA6B27F4A6A5000B0F5E /* CoreGraphicFlow.swift in Sources */,
 				07C683E22807FCA500D6463C /* BooksViewController.swift in Sources */,
 				07C683C82807BFA400D6463C /* AppTweaks.swift in Sources */,
+				070D0EAC28130C9E00F01E31 /* ViewContentFlow.swift in Sources */,
 				0704C73527F856D00009FAD3 /* EnumStructFunctional.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
