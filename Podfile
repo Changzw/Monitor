@@ -16,6 +16,8 @@ target 'Monitor' do
   pod 'RxCocoa'     #,  :binary=>true
   pod 'RxSwift'     #,  :binary=>true
   pod 'SnapKit'     #,  :binary=>true
+  pod 'Cartography'
+  
   pod 'NSObject+Rx' #,  :binary=>true
   pod 'XCoordinator'#,  :binary=>true
   pod 'Then'

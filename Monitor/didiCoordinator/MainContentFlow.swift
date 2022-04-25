@@ -20,6 +20,7 @@ enum MainContentBranch: Branch, CaseIterable {
   case journal
   case rxSwift
   case coreImage
+  case transition
   
   static var allContents: [MainContentBranch] {
     Array(MainContentBranch.allCases[1...])
@@ -40,6 +41,7 @@ final class MainContentFlow: Flow {
   private let journalFlow: JournalContentFlow
   private let rxSwiftFlow: RxSwiftContentFlow
   private let coreImageFlow: CoreImageContentFlow
+  private let transitionFlow: TransitionContentFlow
   
   init(rootViewController: UIViewController) {
     self.rootViewController = rootViewController
@@ -49,6 +51,7 @@ final class MainContentFlow: Flow {
     journalFlow = JournalContentFlow(rootViewController: rootViewController)
     rxSwiftFlow = RxSwiftContentFlow(rootViewController: rootViewController)
     coreImageFlow = CoreImageContentFlow(rootViewController: rootViewController)
+    transitionFlow = TransitionContentFlow(rootViewController: rootViewController)
   }
   
   func direct(to branch: MainContentBranch) {
@@ -67,6 +70,8 @@ final class MainContentFlow: Flow {
       navigationViewController?.pushViewController(RxSwiftContentViewController(flow: rxSwiftFlow), animated: true)
     case .coreImage:
       navigationViewController?.pushViewController(CoreImageContentViewController(flow: coreImageFlow), animated: true)
+    case .transition:
+      navigationViewController?.pushViewController(TransitionContentViewController(flow: transitionFlow), animated: true)
     }
   }
 }
