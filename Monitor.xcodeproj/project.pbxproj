@@ -22,6 +22,10 @@
 		0715717527F33CAE008259C9 /* BuildingFormContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0715717427F33CAE008259C9 /* BuildingFormContentViewController.swift */; };
 		0715717A27F33CAE008259C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0715717927F33CAE008259C9 /* Assets.xcassets */; };
 		0715717D27F33CAE008259C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0715717B27F33CAE008259C9 /* LaunchScreen.storyboard */; };
+		07352CB6281C47FF002AFE0A /* CustomPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07352CB5281C47FF002AFE0A /* CustomPresentable.swift */; };
+		07352CB8281C481C002AFE0A /* ModalTransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07352CB7281C481C002AFE0A /* ModalTransitionManager.swift */; };
+		07352CBA281C4861002AFE0A /* ModalPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07352CB9281C4861002AFE0A /* ModalPresentationController.swift */; };
+		07352CBC281C48BF002AFE0A /* ModalTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07352CBB281C48BF002AFE0A /* ModalTransitionAnimator.swift */; };
 		0739A2AF27F8002600E7B4A2 /* FunctionalProgramFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0739A2AE27F8002600E7B4A2 /* FunctionalProgramFlow.swift */; };
 		0739A2B227F8032D00E7B4A2 /* FunctionalProgramContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0739A2B127F8032D00E7B4A2 /* FunctionalProgramContentViewController.swift */; };
 		074704E52806B1C3007BEA46 /* CGPath+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074704E42806B1C3007BEA46 /* CGPath+extension.swift */; };
@@ -98,6 +102,10 @@
 		0715717927F33CAE008259C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0715717C27F33CAE008259C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0715717E27F33CAE008259C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07352CB5281C47FF002AFE0A /* CustomPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPresentable.swift; sourceTree = "<group>"; };
+		07352CB7281C481C002AFE0A /* ModalTransitionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalTransitionManager.swift; sourceTree = "<group>"; };
+		07352CB9281C4861002AFE0A /* ModalPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPresentationController.swift; sourceTree = "<group>"; };
+		07352CBB281C48BF002AFE0A /* ModalTransitionAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalTransitionAnimator.swift; sourceTree = "<group>"; };
 		0739A2AE27F8002600E7B4A2 /* FunctionalProgramFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionalProgramFlow.swift; sourceTree = "<group>"; };
 		0739A2B127F8032D00E7B4A2 /* FunctionalProgramContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionalProgramContentViewController.swift; sourceTree = "<group>"; };
 		074704E42806B1C3007BEA46 /* CGPath+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPath+extension.swift"; sourceTree = "<group>"; };
@@ -175,6 +183,7 @@
 		0708E16D28159E170062CE12 /* Transition */ = {
 			isa = PBXGroup;
 			children = (
+				07352CB4281C47EF002AFE0A /* transtion */,
 				0708E16E28159E280062CE12 /* TransitionContentFlow.swift */,
 				0708E17028159E710062CE12 /* TransitionContentViewController.swift */,
 			);
@@ -254,6 +263,17 @@
 			children = (
 			);
 			path = OpenGL;
+			sourceTree = "<group>";
+		};
+		07352CB4281C47EF002AFE0A /* transtion */ = {
+			isa = PBXGroup;
+			children = (
+				07352CB5281C47FF002AFE0A /* CustomPresentable.swift */,
+				07352CB7281C481C002AFE0A /* ModalTransitionManager.swift */,
+				07352CBB281C48BF002AFE0A /* ModalTransitionAnimator.swift */,
+				07352CB9281C4861002AFE0A /* ModalPresentationController.swift */,
+			);
+			path = transtion;
 			sourceTree = "<group>";
 		};
 		0739A2B027F8030100E7B4A2 /* Functional */ = {
@@ -583,6 +603,7 @@
 				07C683E52807FCA500D6463C /* Book.swift in Sources */,
 				07C683E12807FCA500D6463C /* BooksLayout.swift in Sources */,
 				0739A2AF27F8002600E7B4A2 /* FunctionalProgramFlow.swift in Sources */,
+				07352CB8281C481C002AFE0A /* ModalTransitionManager.swift in Sources */,
 				07C683CA2807C1A300D6463C /* Toast.swift in Sources */,
 				077F18C427F3533800709CBA /* BuildFormChapter4.swift in Sources */,
 				07DCCA7827F4AC42000B0F5E /* Stacks.swift in Sources */,
@@ -605,6 +626,7 @@
 				07DCCA6927F4A599000B0F5E /* StackBuilder.swift in Sources */,
 				0785FB04280B216400AA8D3B /* WaveViewController.swift in Sources */,
 				074704F528072173007BEA46 /* CoreGraphicLineView.swift in Sources */,
+				07352CBC281C48BF002AFE0A /* ModalTransitionAnimator.swift in Sources */,
 				0704C73327F8357F0009FAD3 /* Map,Filter,Reduce.swift in Sources */,
 				0785FB08280C7A6B00AA8D3B /* CoreGraphicCircle.swift in Sources */,
 				07E97C0A2811C42D00B10B43 /* RxSubjectViewController.swift in Sources */,
@@ -618,6 +640,7 @@
 				07C683D32807CAFA00D6463C /* JournalPageViewController.swift in Sources */,
 				07A2940D2806A03D00CFFF03 /* UIColor+extensions.swift in Sources */,
 				07DCCA6527F49AC0000B0F5E /* BuildFormFlow.swift in Sources */,
+				07352CBA281C4861002AFE0A /* ModalPresentationController.swift in Sources */,
 				0708E16F28159E280062CE12 /* TransitionContentFlow.swift in Sources */,
 				07A29408280677E300CFFF03 /* BorderGradientButtonViewController.swift in Sources */,
 				070D0EA72812EE9400F01E31 /* CoreImageFirstViewController.swift in Sources */,
@@ -636,6 +659,7 @@
 				07C683E42807FCA500D6463C /* BookPageCell.swift in Sources */,
 				07C683CF2807C96F00D6463C /* JournalContentViewController.swift in Sources */,
 				07DCCA7327F4A990000B0F5E /* CoolButton.swift in Sources */,
+				07352CB6281C47FF002AFE0A /* CustomPresentable.swift in Sources */,
 				077F18C827F353EB00709CBA /* BuildFormChapter6.swift in Sources */,
 				077F18CA27F357E300709CBA /* BuildFormChapter7.swift in Sources */,
 				074704F328071DF0007BEA46 /* CoreGraphicTextView.swift in Sources */,
