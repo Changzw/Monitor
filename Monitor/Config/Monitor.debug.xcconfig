@@ -1,0 +1,12 @@
+//
+//  Monitor.debug.xcconfig
+//  Monitor
+//
+//  Created by Fri on 2022/5/6.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+//#include "${PROJECT}/Pods/Target Support Files/Pods-Monitor/Pods-Monitor.debug.xcconfig"
+#include "Pods/Target Support Files/Pods-Monitor/Pods-Monitor.debug.xcconfig"

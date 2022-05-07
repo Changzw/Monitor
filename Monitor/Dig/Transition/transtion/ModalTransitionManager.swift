@@ -34,10 +34,10 @@ extension ModalTransitionManager: UIViewControllerTransitioningDelegate {
     return ModalTransitionAnimator(presenting: false)
   }
   
-  func interactionControllerForDismissal(using animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
-    guard let interactionController = interactionController, interactionController.interactionInProgress else {
-      return nil
-    }
-    return interactionController
-  }
+//  func interactionControllerForDismissal(using animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
+//    guard let interactionController = interactionController, interactionController.interactionInProgress else {
+//      return nil
+//    }
+//    return interactionController
+//  }
 }
